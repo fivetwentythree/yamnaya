@@ -13,7 +13,7 @@ author: Lochana Perera
 
 [Synthesis Table](synthesis-table.qmd)
 
-[Synthesis Themes](synthesis-themes.qmd.qmd)
+[Synthesis Themes](synthesis-themes.qmd)
 
 [Review](review.qmd)
 
