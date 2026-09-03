@@ -16,3 +16,5 @@ author: Lochana Perera
 [Synthesis Themes](synthesis-themes.qmd.qmd)
 
 [Review](review.qmd)
+
+[Simple Story](story.qmd)

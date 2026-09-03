@@ -1,0 +1,209 @@
+---
+title: Yamnaya Lit Review
+subtitle: Simple Story
+author: Lochana Perera
+---
+[Home](index.qmd)
+
+
+## The whole story in one paragraph
+
+Long before the Yamnaya expansion, people living around the Steppe, the lower Volga, the Caucasus, the North Pontic region and southeastern Europe were already meeting and mixing. Over time, these contacts helped form the ancestry later found in Yamnaya groups. At about 3300 BCE, Yamnaya-related people began moving very quickly in two broad directions: west into Europe and east towards the Altai and Inner Asia. Their movement changed the genetic history of many regions, but it did not have the same result everywhere. In some places there was large population change. In others, newcomers mixed with local people. Sometimes men appear to have moved more than women. Sometimes archaeological objects and customs spread without a large movement of people. These population movements could have helped spread Indo-European languages, but DNA cannot tell us what language any ancient person spoke. The safest conclusion is therefore: **ancient DNA strongly supports rapid Yamnaya-related migration, but the connection to particular Indo-European languages remains a careful interpretation, not a direct genetic fact.**
+
+
+
+## 1. Before the journey: the Yamnaya did not appear from nowhere
+
+Imagine the story beginning before there was a fully formed Yamnaya population.
+
+The lands around the Pontic–Caspian Steppe were not empty or isolated. People had been moving, meeting and mixing there for a long time. Mathieson et al. (2018) found evidence of contact between Steppe populations and southeastern Europe well before the main Yamnaya expansion. Wong et al. (2017) also found signs of older connections between western Siberia, the Urals and northeastern Europe. These studies remind us that east–west contact did not suddenly begin in 3300 BCE.
+
+The most detailed recent studies describe Yamnaya formation as a process with several stages. Lazaridis et al. (2025) argue that ancestry related to the Caucasus and lower Volga moved west and mixed with people connected to the Dnipro and Don areas. Nikitin et al. (2025) describe several movements and mixtures in the North Pontic region. They connect Caucasus–Lower Volga-related people, Trypillian farmers, local foragers, Usatove groups, Serednii Stih groups and later Yamnaya populations.
+
+The simple meaning is this: **Yamnaya ancestry was built through earlier movement and mixture. It was not created by one isolated, unchanging tribe.**
+
+Chintalapati et al. (2022) help place these events in time. Their study suggests that important mixtures happened before the archaeological Yamnaya horizon became visible. The genetic population was therefore developing before the famous expansion began.
+
+There is still uncertainty. The studies broadly agree on a multi-stage formation process, but they do not identify one perfectly certain birthplace or every exact route. Some possible source populations have not yet been sampled. The lower Volga, Don–Dnipro region, North Caucasus and routes towards Anatolia still need more evidence.
+
+## 2. The launch: rapid movement after about 3300 BCE
+
+After this long formation process, something changed. From about 3300 BCE, Yamnaya-related populations began to spread rapidly across a very large area.
+
+This was not movement in only one direction. The broad pattern was **bidirectional**:
+
+- westwards into central and northern Europe; and
+- eastwards towards the Altai, western Mongolia and Xinjiang.
+
+Allentoft et al. (2015) is important because it shows both sides of this pattern. The study found strong genetic connections between Yamnaya and Corded Ware populations in the west, and between Yamnaya and Afanasievo populations in the east. This makes the Yamnaya story a Eurasian story, not only a European one.
+
+## 3. The westward road: movement into Europe
+
+The strongest part of the evidence concerns movement west into Europe.
+
+Haak et al. (2015) found that sampled German Corded Ware people had a very large amount of ancestry related to sampled Yamnaya people. Their estimate was roughly three-quarters. A change this large is very difficult to explain through the movement of objects or ideas alone. It points to a substantial movement of people from the Steppe into central Europe around 3000 BCE.
+
+Allentoft et al. (2015) reached a similar broad conclusion using a different Eurasian dataset. The agreement between these early major studies made rapid Steppe-related migration into Europe one of the clearest findings in ancient-DNA research.
+
+Ringbauer et al. (2024) later added another kind of evidence. The researchers examined long pieces of DNA shared by ancient individuals. These pieces are called identity-by-descent, or IBD, segments. In simple language, a long shared segment means that two people or populations had fairly recent common ancestors. Corded Ware and Yamnaya groups shared segments showing connections within only a few hundred years. This makes the movement look rapid and recent, rather than the result of a very distant shared ancestor.
+
+However, we should not imagine that every Corded Ware person came directly from one sampled Yamnaya group. Papac et al. (2021) found that Corded Ware populations in Bohemia had high but varied Steppe-related ancestry. They were not genetically or socially identical. Ringbauer et al. (2024) also found ancestry connected to earlier European groups such as Globular Amphora populations.
+
+This is why the phrase **“Yamnaya-related ancestry”** is safer than saying that every Corded Ware community was simply Yamnaya. The broad family connection and westward movement are strong. The exact source groups and routes are less certain.
+
+## 4. What happened after migrants arrived
+
+The newcomers did not enter an empty Europe. They met local people. Different regions then developed in different ways.
+
+Papac et al. (2021) show this clearly in Bohemia. Corded Ware populations arrived with high Steppe-related ancestry, but they also incorporated women from different local backgrounds. Later changes in male family lines suggest further social and population restructuring. This was not one simple replacement followed by stability.
+
+Linderholm et al. (2020) provide a smaller, community-level view from southeastern Poland. Their genomic, family-relationship and isotope evidence suggests a mixture of Steppe-associated paternal ancestry and maternal lines connected to earlier Neolithic populations. Local and non-local people could even appear within the same family network.
+
+Scorrano et al. (2021) examined whether Steppe migration was sex-biased. Several Corded Ware datasets appear to show a stronger movement of men than women. However, the strength of this pattern varies between places, and some of the genetic estimates are uncertain. The safe conclusion is not “only men migrated.” It is: **male-biased migration appears to have been an important mechanism in some European regions, alongside the incorporation of local women.**
+
+These regional studies change the shape of the story. There was a large westward migration, but there was no single result everywhere. The real pattern included migration, mixture, marriage, local incorporation, family movement and repeated population change.
+
+## 5. Objects, cultures and people are not the same thing
+
+Archaeologists give names such as Yamnaya, Corded Ware, Globular Amphora and Bell Beaker to patterns of burials, pottery and other material remains. These names are useful, but they do not automatically describe one biological population.
+
+Tassi et al. (2017) provide an important negative example. People from a Globular Amphora burial in Poland had cultural links looking towards the east, but they did not have the expected Yamnaya-related genetic profile. This suggests that ideas and objects could spread without a matching mass movement of people.
+
+Olalde et al. (2018) show both possibilities within the Bell Beaker world. Iberian and central European Beaker groups shared material culture but had limited genetic similarity. In that case, practices probably travelled more strongly than people. Britain was different. Beaker-associated migration brought a large amount of Steppe-related ancestry and replaced about 90% of the earlier gene pool within a few centuries. Much of this British change occurred after 2600 BCE, so it is best understood as a later consequence of Steppe-related dispersal rather than direct evidence about the first Yamnaya expansion.
+
+Furholt (2018) gives the broader warning behind these examples. We should not turn archaeological cultures into simple, uniform “peoples.” A shared pot, burial custom or cultural label does not prove that everyone belonged to one ancestry group, moved together or spoke the same language.
+
+The lesson is simple: **sometimes culture moved with people, and sometimes culture moved between people. We have to test each place separately.**
+
+## 6. The eastward road: movement into Inner Asia
+
+The second great road led east.
+
+Allentoft et al. (2015) found that Afanasievo individuals from the Altai were genetically very close to sampled Yamnaya groups. The great distance between the Steppe and the Altai suggests rapid eastward movement in the early third millennium BCE.
+
+Wang et al. (2021) followed this story farther into Asia. Yamnaya/Afanasievo-related ancestry appeared in western Mongolia after about 3000 BCE and later reached or persisted in areas farther west, including Xinjiang. The ancestry did not remain equally strong everywhere. In parts of Mongolia it later declined as populations mixed and changed.
+
+The broad eastward movement is well supported, but the road between the Steppe and Inner Asia is not filled with evenly spaced samples. We are missing many intermediate populations. Also, an archaeological site labelled Afanasievo does not always contain people with the ancestry researchers might expect.
+
+The safe picture is therefore: **a population closely related to Yamnaya moved rapidly east towards the Altai and Inner Asia, but the exact route and every local stage remain uncertain.**
+
+## 7. The Caucasus and northern Eurasia: important background roads
+
+The Caucasus was not simply a wall separating north and south. It could also act as a corridor through which people and ancestry moved.
+
+Dzhaubermezov et al. (2026) bring together a large body of Caucasus research. Their review describes long-term regional continuity together with periods of Steppe-related gene flow and mixture. Because it combines previously published datasets and covers a very long period, it is best used as supporting context rather than as one direct Yamnaya migration route. The workbook also flagged its publication-date metadata for checking before final submission.
+
+Wong et al. (2017) provide similar broad context for northern Eurasia. Their study is based mainly on modern northern populations together with published ancient comparisons. It suggests deep connections between Siberia, the Urals and northeastern Europe. It is useful for showing that the wider region had a long history of movement, but it is not a direct line of Yamnaya-period graves leading from one place to another.
+
+Together, these studies stop the story from becoming too simple. Yamnaya expansion was important, but it occurred inside a much older network of Eurasian connections.
+
+## 8. Were horses the engine of the first expansion?
+
+Horses are often placed at the centre of popular Yamnaya stories. Librado et al. (2021), however, found that the horse lineage that later spread widely did not drive the first movement of human Steppe ancestry into Europe. The great expansion of those domestic horses happened later.
+
+This does not mean horses were unimportant in all later Steppe societies. It means we should not automatically explain the first Yamnaya migration by saying, “They had the later domestic horse system, so they could spread.” The timing does not fit that simple story.
+
+## 9. The language question
+
+We now reach the most interesting and most dangerous part of the story.
+
+Large and rapid population movement can carry language. If many people move into a new region, form communities, raise children and create new social systems, their language may also spread. The Yamnaya-related expansion therefore provides a believable demographic mechanism for the spread of at least some Indo-European languages.
+
+Haak et al. (2015) argued that the major Steppe-related movement into central Europe supported a Steppe-origin model for some Indo-European languages. Allentoft et al. (2015) described the broad Eurasian population changes as consistent with an early Bronze Age language dispersal. Chintalapati et al. (2022) showed that the timing of Steppe-related mixture could be compared with different language-spread models.
+
+In the east, Wang et al. (2021) connected Yamnaya/Afanasievo-related movement with a possible migration of proto-Tocharian speakers. This is a reasonable hypothesis because Tocharian later appeared far to the east of most Indo-European languages. The migration provides a possible route by which an early Indo-European branch could have travelled east.
+
+Lazaridis et al. (2025) make the most detailed language-related proposal in the collection. They connect the earlier formation process around the Caucasus–Lower Volga and North Pontic regions with a possible proto-Indo-Anatolian stage, followed by later language branching and Yamnaya expansion.
+
+Tassi et al. (2017), however, provide a necessary warning. Cultural influence can cross a region without the expected population movement, and language change does not always follow DNA change in a simple one-to-one way.
+
+The central limit is unavoidable: **DNA does not contain a label saying what language a person spoke.**
+
+Ancient DNA can show that:
+
+- people were biologically related;
+- ancestry appeared in a new place;
+- populations mixed;
+- some population replacements were large;
+- some movements were recent and rapid; and
+- some movements may have been sex-biased.
+
+Ancient DNA cannot directly show that:
+
+- a person spoke Proto-Indo-European;
+- every Yamnaya group spoke the same language;
+- every Corded Ware or Afanasievo person used a particular language;
+- population replacement caused complete language replacement; or
+- one genetic ancestry component equals one culture, ethnicity or language.
+
+The correct wording is therefore:
+
+- “compatible with Indo-European dispersal”;
+- “consistent with a Steppe-based language model”; or
+- “interpreted by the authors as supporting proto-Tocharian dispersal.”
+
+The incorrect wording would be: “DNA proves the Yamnaya spoke and spread a particular language.”
+
+## 10. The final picture
+
+The story begins with long-term contact. Different populations around the Caucasus, lower Volga, North Pontic region and Steppe mixed over many generations. From this process, Yamnaya-related ancestry formed.
+
+At about 3300 BCE, Yamnaya-related populations began a rapid expansion. One stream moved west into Europe. Another moved east towards the Altai and Inner Asia.
+
+The western movement is the strongest part of the evidence. Large ancestry changes and close genetic family connections link Yamnaya-related and Corded Ware populations. Yet Corded Ware communities were not all the same, and sampled Yamnaya groups may not represent the one exact source.
+
+After arrival, the results differed by region. Some places experienced major population turnover. Others show admixture and local continuity. In several European settings, migration was male-biased and included the incorporation of local women. Material culture sometimes moved with populations and sometimes spread without large genetic change.
+
+The eastern movement is also supported, especially through the close Yamnaya–Afanasievo relationship. However, the intermediate route is more sparsely sampled than the European route.
+
+These migrations could have helped Indo-European languages spread. They provide the people-moving mechanism that a language-spread model needs. But they do not reveal speech. Language conclusions must therefore be built by combining genetics with archaeology and historical linguistics.
+
+## The memory version
+
+If you need to remember the literature review quickly, hold these six lines in your mind:
+
+1. **Formation:** Yamnaya ancestry formed through earlier movement and mixture.
+2. **Launch:** Rapid expansion began around 3300 BCE.
+3. **Two roads:** People moved west into Europe and east into Inner Asia.
+4. **Different endings:** Each region had a different mixture of replacement, continuity and local incorporation.
+5. **Culture is not DNA:** Similar objects do not always mean the same population moved.
+6. **DNA is not language:** Migration could spread language, but genetics cannot identify speech.
+
+## References represented in the workbook
+
+The list below contains the 17 unique publications in the audited collection. The second Lazaridis Zotero record was an exact duplicate and is not listed twice.
+
+Allentoft, M. E., et al. (2015). Population genomics of Bronze Age Eurasia. *Nature, 522*, 167–172. https://doi.org/10.1038/nature14507
+
+Chintalapati, M., Patterson, N., & Moorjani, P. (2022). The spatiotemporal patterns of major human admixture events during the European Holocene. *eLife, 11*, e77625. https://doi.org/10.7554/eLife.77625
+
+Dzhaubermezov, M. A., Gabidullina, L. R., Ekomasova, N. V., & Khusnutdinova, E. K. (2026). Genomic history of the Caucasus: A systematic review and meta-analysis of ancient DNA studies. *BioSystems, 268*, 105906. https://doi.org/10.1016/j.biosystems.2026.105906
+
+Furholt, M. (2018). Massive migrations? The impact of recent aDNA studies on our view of third millennium Europe. *European Journal of Archaeology, 21*(2), 159–191. https://doi.org/10.1017/eaa.2017.43
+
+Haak, W., et al. (2015). Massive migration from the steppe was a source for Indo-European languages in Europe. *Nature, 522*, 207–211. https://doi.org/10.1038/nature14317
+
+Lazaridis, I., et al. (2025). The genetic origin of the Indo-Europeans. *Nature, 639*, 132–142. https://doi.org/10.1038/s41586-024-08531-5
+
+Librado, P., et al. (2021). The origins and spread of domestic horses from the Western Eurasian steppes. *Nature, 598*, 634–640. https://doi.org/10.1038/s41586-021-04018-9
+
+Linderholm, A., et al. (2020). Corded Ware cultural complexity uncovered using genomic and isotopic analysis from south-eastern Poland. *Scientific Reports, 10*, 6885. https://doi.org/10.1038/s41598-020-63138-w
+
+Mathieson, I., et al. (2018). The genomic history of southeastern Europe. *Nature, 555*, 197–203. https://doi.org/10.1038/nature25778
+
+Nikitin, A. G., et al. (2025). A genomic history of the North Pontic Region from the Neolithic to the Bronze Age. *Nature, 639*, 124–131. https://doi.org/10.1038/s41586-024-08372-2
+
+Olalde, I., et al. (2018). The Beaker phenomenon and the genomic transformation of northwest Europe. *Nature, 555*, 190–196. https://doi.org/10.1038/nature25738
+
+Papac, L., et al. (2021). Dynamic changes in genomic and social structures in third millennium BCE central Europe. *Science Advances, 7*(35), eabi6941. https://doi.org/10.1126/sciadv.abi6941
+
+Ringbauer, H., et al. (2024). Accurate detection of identity-by-descent segments in human ancient DNA. *Nature Genetics, 56*, 143–151. https://doi.org/10.1038/s41588-023-01582-w
+
+Scorrano, G., Yediay, F. E., Pinotti, T., Feizabadifarahani, M., & Kristiansen, K. (2021). The genetic and cultural impact of the Steppe migration into Europe. *Annals of Human Biology, 48*(3), 223–233. https://doi.org/10.1080/03014460.2021.1942984
+
+Tassi, F., et al. (2017). Genome diversity in the Neolithic Globular Amphorae culture and the spread of Indo-European languages. *Proceedings of the Royal Society B: Biological Sciences, 284*(1867), 20171540. https://doi.org/10.1098/rspb.2017.1540
+
+Wang, C.-C., et al. (2021). Genomic insights into the formation of human populations in East Asia. *Nature, 591*, 413–419. https://doi.org/10.1038/s41586-021-03336-2
+
+Wong, E. N. M., et al. (2017). Reconstructing genetic history of Siberian and Northeastern European populations. *Genome Research, 27*(1), 1–14. https://doi.org/10.1101/gr.202945.115
+
