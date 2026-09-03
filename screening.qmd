@@ -1,10 +1,9 @@
 ---
 title: Yamnaya Lit Review
-subtitle: Inventory of papers
+subtitle: Screening
 author: Lochana Perera
 ---
 [Home](index.qmd)
-
 ```{r}
 #| label: setup
 #| include: false
@@ -19,7 +18,7 @@ library(dplyr)
 #| echo: false
 #| warning: false
 #| message: false
-df <- read_excel("excel/Inventory.xlsx")
+df <- read_excel("excel/screening.xlsx")
 
 knitr::kable(df)
 ```
