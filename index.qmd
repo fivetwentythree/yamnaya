@@ -9,3 +9,5 @@ author: Lochana Perera
 
 [Screening](screening.qmd)
 
+[Evidence Extraction](evidence-extraction.qmd)
+
