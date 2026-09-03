@@ -19,7 +19,6 @@ citation-location: document
 reference-location: margin
 ---
 
-[← Back to Yamnaya](index.qmd)
 
 ### This is my main area of focus
 

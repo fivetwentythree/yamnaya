@@ -1,3 +1,5 @@
 .Rhistory
 .quarto/
 index1.qmd
+/.quarto/
+**/*.quarto_ipynb
