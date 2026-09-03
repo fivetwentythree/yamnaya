@@ -4,3 +4,6 @@ subtitle: Work in Progress
 author: Lochana Perera
 ---
 [Outline](outline.qmd)
+
+[Inventoy of Papers](inventory.qmd)
+
