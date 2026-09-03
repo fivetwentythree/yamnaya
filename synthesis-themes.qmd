@@ -1,0 +1,25 @@
+---
+title: Yamnaya Lit Review
+subtitle: Synthesis Themes
+author: Lochana Perera
+---
+[Home](index.qmd)
+
+```{r}
+#| label: setup
+#| include: false
+
+library(readxl)
+library(knitr)
+library(dplyr)
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+df <- read_excel("excel/synthesis-themes.xlsx")
+
+knitr::kable(df)
+```

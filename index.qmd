@@ -11,3 +11,8 @@ author: Lochana Perera
 
 [Evidence Extraction](evidence-extraction.qmd)
 
+[Synthesis Table](synthesis-table.qmd)
+
+[Synthesis Themes](synthesis-themes.qmd.qmd)
+
+[Review](review.qmd)

@@ -19,5 +19,14 @@
   },
   "evidence-extraction.qmd": {
     "evidence-extraction.html": "239e0ecf"
+  },
+  "synthesis-table.qmd": {
+    "synthesis-table.html": "725d4b75"
+  },
+  "synthesis-themes.qmd": {
+    "synthesis-themes.html": "7b6f6ca7"
+  },
+  "review.qmd": {
+    "review.html": "4b01cd15"
   }
 }
