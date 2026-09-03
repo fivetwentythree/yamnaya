@@ -3,18 +3,7 @@ title: Yamnaya Lit Review
 subtitle: Work in Progress
 author: Lochana Perera
 ---
-[Outline](outline.qmd)
 
-[Inventoy of Papers](inventory.qmd)
+[Prisma Identification Summary](prisma-identification-summary.qmd)
 
-[Screening](screening.qmd)
-
-[Evidence Extraction](evidence-extraction.qmd)
-
-[Synthesis Table](synthesis-table.qmd)
-
-[Synthesis Themes](synthesis-themes.qmd)
-
-[Review](review.qmd)
-
-[Simple Story](story.qmd)
+[Prisma](prisma-mermaid.qmd)

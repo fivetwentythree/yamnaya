@@ -68,6 +68,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -86,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Yamnaya Lit Review</h1>
-<p class="subtitle lead">Work in Progress</p>
+<p class="subtitle lead">Prisma Flow Diagram</p>
 </div>
 
 
@@ -109,8 +112,47 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="./prisma-identification-summary.html">Prisma Identification Summary</a></p>
-<p><a href="./prisma-mermaid.html">Prisma</a></p>
+<p><a href="./index.html">Home</a></p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
+  ST1["IDENTIFICATION"]:::stage
+  A["Records identified through the&lt;br/&gt;Web of Science Starter API&lt;br/&gt;&lt;b&gt;n = 88&lt;/b&gt;&lt;br/&gt;88 current searches"]:::main
+  B["Duplicate records removed&lt;br/&gt;&lt;b&gt;n = 37&lt;/b&gt;"]:::excluded
+
+  ST2["SCREENING"]:::stage
+  C["Records screened by title and abstract&lt;br/&gt;&lt;b&gt;n = 51&lt;/b&gt;"]:::main
+  D["Records excluded&lt;br/&gt;&lt;b&gt;n = 16&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Publication type: 3&lt;br/&gt;Outside Eurasian scope: 1&lt;br/&gt;Non-human or no relevant human evidence: 4&lt;br/&gt;Outside period or assigned subtopic: 5&lt;br/&gt;Methods only: 1&lt;br/&gt;No direct relevance: 2"]:::excluded
+  E["Reports sought for retrieval&lt;br/&gt;&lt;b&gt;n = 35&lt;/b&gt;"]:::main
+  F["Reports not retrieved&lt;br/&gt;&lt;b&gt;n = 2&lt;/b&gt;&lt;br/&gt;Full text unavailable: 2"]:::excluded
+  G["Full-text reports assessed for eligibility&lt;br/&gt;&lt;b&gt;n = 33&lt;/b&gt;"]:::main
+  H["Full-text report excluded&lt;br/&gt;&lt;b&gt;n = 1&lt;/b&gt;&lt;br/&gt;No direct relevance: 1"]:::excluded
+
+  ST3["INCLUDED"]:::stage
+  I["Studies included in the migration&lt;br/&gt;and language synthesis&lt;br/&gt;&lt;b&gt;n = 32&lt;/b&gt;&lt;br/&gt;Core evidence: 17 | Contextual evidence: 15"]:::included
+
+  ST1 --&gt; A --&gt; B --&gt; ST2 --&gt; C
+  C --&gt;|Excluded| D
+  C --&gt; E
+  E --&gt;|Not retrieved| F
+  E --&gt; G
+  G --&gt;|Excluded| H
+  G --&gt; ST3 --&gt; I
+
+  classDef stage fill:#2f75b5,color:#ffffff,stroke:#2f75b5,stroke-width:1px,font-weight:bold;
+  classDef main fill:#ffffff,color:#1f2937,stroke:#64748b,stroke-width:1.5px;
+  classDef excluded fill:#fff4e6,color:#7c2d12,stroke:#c2410c,stroke-width:1.5px;
+  classDef included fill:#e2f0d9,color:#274e13,stroke:#548235,stroke-width:2px;
+  linkStyle default stroke:#64748b,stroke-width:1.5px;
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 
 

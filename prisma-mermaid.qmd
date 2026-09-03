@@ -1,0 +1,39 @@
+---
+title: Yamnaya Lit Review
+subtitle: Prisma Flow Diagram
+author: Lochana Perera
+---
+[Home](index.qmd)
+
+```{mermaid}
+flowchart TB
+  ST1["IDENTIFICATION"]:::stage
+  A["Records identified through the<br/>Web of Science Starter API<br/><b>n = 88</b><br/>88 current searches"]:::main
+  B["Duplicate records removed<br/><b>n = 37</b>"]:::excluded
+
+  ST2["SCREENING"]:::stage
+  C["Records screened by title and abstract<br/><b>n = 51</b>"]:::main
+  D["Records excluded<br/><b>n = 16</b><br/><br/>Publication type: 3<br/>Outside Eurasian scope: 1<br/>Non-human or no relevant human evidence: 4<br/>Outside period or assigned subtopic: 5<br/>Methods only: 1<br/>No direct relevance: 2"]:::excluded
+  E["Reports sought for retrieval<br/><b>n = 35</b>"]:::main
+  F["Reports not retrieved<br/><b>n = 2</b><br/>Full text unavailable: 2"]:::excluded
+  G["Full-text reports assessed for eligibility<br/><b>n = 33</b>"]:::main
+  H["Full-text report excluded<br/><b>n = 1</b><br/>No direct relevance: 1"]:::excluded
+
+  ST3["INCLUDED"]:::stage
+  I["Studies included in the migration<br/>and language synthesis<br/><b>n = 32</b><br/>Core evidence: 17 | Contextual evidence: 15"]:::included
+
+  ST1 --> A --> B --> ST2 --> C
+  C -->|Excluded| D
+  C --> E
+  E -->|Not retrieved| F
+  E --> G
+  G -->|Excluded| H
+  G --> ST3 --> I
+
+  classDef stage fill:#2f75b5,color:#ffffff,stroke:#2f75b5,stroke-width:1px,font-weight:bold;
+  classDef main fill:#ffffff,color:#1f2937,stroke:#64748b,stroke-width:1.5px;
+  classDef excluded fill:#fff4e6,color:#7c2d12,stroke:#c2410c,stroke-width:1.5px;
+  classDef included fill:#e2f0d9,color:#274e13,stroke:#548235,stroke-width:2px;
+  linkStyle default stroke:#64748b,stroke-width:1.5px;
+```
+

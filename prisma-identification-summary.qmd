@@ -1,0 +1,60 @@
+---
+title: Yamnaya Lit Review
+subtitle: Prisma Identification Summary
+author: Lochana Perera
+reference-location: margin
+---
+[Home](index.qmd)
+
+
+
+Search date: 3 September 2026 (AWST)
+
+Database: Web of Science Core Collection (`db=WOS`)
+
+Interface: Web of Science Starter API v1
+
+Eligibility restriction applied to every query: `DT=Article`
+
+### Search results
+
+| Search | Purpose | Records returned |
+|---|---|---:|
+| Historical group-query rerun | Preserve the original search concepts with an article-only restriction | 21^[TS=(("Yamnaya" OR "Yamna culture") AND ("DNA" OR "aDNA" OR "ancient genomics") AND ("migration" OR "Indo-European")) AND DT=Article] |
+| Eurasia migration/language search | Represent the revised Eurasian scope using Eurasia and named regional terms | 34^[TS=(("Yamnaya" OR "Yamna culture" OR "Yamna" OR "Yamnaya-related ancestry" OR "steppe ancestry") AND ("ancient DNA" OR "aDNA" OR "ancient genomics" OR archaeogenom*) AND ("migration" OR migrat* OR dispers* OR expansion* OR mobility OR "Indo-European" OR "Proto-Indo-European" OR "language spread" OR "language dispersal") AND (Eurasia* OR Europe* OR Asia* OR Caucas* OR "Pontic-Caspian" OR "Central Asia" OR Siberia* OR Altai OR Mongolia* OR Xinjiang OR Danube OR "Black Sea")) AND DT=Article] |
+| Eurasia sensitivity search | Recover migration evidence that lacks explicit migration or language wording | 33^[TS=(("Yamnaya" OR "Yamna culture" OR "Yamna" OR "Yamnaya-related ancestry" OR "steppe ancestry" OR "steppe-related ancestry") AND ("ancient DNA" OR "aDNA" OR "ancient genomics" OR archaeogenom* OR paleogenom* OR palaeogenom*) AND ("Bronze Age" OR Chalcolithic OR "third millennium BCE" OR "third millennium BC" OR "3300 BCE" OR "2600 BCE") AND (Eurasia* OR Europe* OR Asia* OR Caucas* OR "Pontic-Caspian" OR "Central Asia" OR Siberia* OR Altai OR Mongolia* OR Xinjiang OR Danube OR "Black Sea")) AND DT=Article] |
+
+| **Total record occurrences identified** | Current and earlier API records | **88** |
+
+
+
+### Deduplication
+
+Records were deduplicated using the Web of Science unique identifier (`UID`).
+
+| PRISMA identification measure | Count |
+|---|---:|
+| Record occurrences identified through the Web of Science Starter API | 88 |
+| Duplicate occurrences removed | 37 |
+| Unique Web of Science records remaining | 51 |
+
+
+The calculation is `88 - 37 = 51`.
+
+### Current PRISMA status
+
+| Flow item | Count/status |
+|---|---:|
+| Records identified through the Web of Science Starter API | 88 |
+| Duplicate records removed before screening | 37 |
+| Unique records screened by title and abstract | 51 |
+| Records excluded during title-and-abstract screening | 16 |
+| Reports sought for retrieval | 35 |
+| Reports not retrieved | 2 |
+| Reports assessed for eligibility | 33 |
+| Full-text reports excluded | 1 |
+| Studies included in the migration/language synthesis | 32 |
+
+### Interpretation rule
+
+`DT=Article` removes records classified as reviews by Web of Science.
