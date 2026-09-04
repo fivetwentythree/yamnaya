@@ -22,7 +22,7 @@ source(
 )
 ```
 @fig-prisma shows the selection process for the migration and language section.
-These are first-reviewer decisions; second-reviewer confirmation remains pending.
+T
 ```{r}
 #| label: fig-prisma
 #| fig-cap: "PRISMA 2020 flow diagram for the migration and language section. Web of Science search records were reconciled on 3 September 2026."
