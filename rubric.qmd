@@ -50,9 +50,6 @@ Assess the intended claim in each domain.
 | Interpretation | Claims follow from evidence; ancestry, culture and language remain distinct. |
 | Transparency | Methods, supplements and underlying data are assessable. |
 
-Use **Low concern** for checked safeguards, **Some concern** for a limitation
-requiring qualification, **High concern** for a threat to validity, and
-**Unclear** for missing assessment. Explain any Not applicable rating.
 
 ## Selection and record
 
