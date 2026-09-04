@@ -3,35 +3,35 @@ title: "Yamnaya Lit Review"
 subtitle: "Prisma Diagram"
 format:
   html:
+    toc: false
     embed-resources: true
 execute:
   echo: false
   message: false
+  warning: false
 ---
+
 [Home](index.qmd)
 
-
 ```{r}
-#| label: build-prisma
+#| label: build-prisma-selection
 #| include: false
-# Run the saved R script to check the counts and regenerate the diagram files.
 source(
-  "/Users/lochana-mbp/Documents/Personal/UWA /SCIE4403 - Ethics /Codex Workflow/scripts/create-prisma2020.R",
+  "/Users/lochana-mbp/Documents/Personal/UWA /SCIE4403 - Ethics /Codex Workflow/scripts/create-prisma-selection.R",
   local = knitr::knit_global()
 )
 ```
-@fig-prisma shows the selection process for the migration and language section.
-T
+
+@fig-prisma adds the [selection rubric](rubric.qmd) to the recorded screening.
+Group selection reconsidered all 51 candidates, including papers outside the
+migration and language section.
+
 ```{r}
 #| label: fig-prisma
-#| fig-cap: "PRISMA 2020 flow diagram for the migration and language section. Web of Science search records were reconciled on 3 September 2026."
-#| fig-alt: "88 records identified; 37 duplicates removed; 51 records screened; 16 excluded; 35 reports sought; 2 not retrieved; 33 assessed, 1 excluded for no direct relevance; 32 studies and reports included."
+#| fig-cap: "Adapted PRISMA 2020 flow with a review-specific group selection stage. Citation counts checked on 4 September 2026."
+#| fig-alt: "88 records identified, 37 duplicates removed, 51 candidates. The recorded migration/language screening excluded 16, sought 35 reports, did not retrieve 2, assessed 33 and excluded 1, leaving 32 section reports. A separate group selection reconsidered all 51 using eligibility, relevance, citations, journal prestige as a research-quality proxy, sample size and topic coverage. Ten papers were recommended provisionally; 41 other candidates include reserves, background and unresolved cases."
 #| out-width: "100%"
 #| fig-align: center
-# Display the generated image in the document.
-knitr::include_graphics(file.path(output_dir, "prisma2020.png"))
+knitr::include_graphics(file.path(output_dir, "prisma-selection.png"))
 ```
-The included evidence comprises `r sum(fulltext$tier == "Core", na.rm = TRUE)` core
-and `r sum(fulltext$tier == "Contextual", na.rm = TRUE)` contextual reports.
-The existing assessment counts each included article as one study and one report.
-<!-- To refer to this figure elsewhere in your document, write @fig-prisma. -->
+
