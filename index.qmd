@@ -6,6 +6,7 @@ author: Lochana Perera
 
 [Prisma Identification Summary](prisma-identification-summary.qmd)
 
-[Prisma](prisma-mermaid.qmd)
+[Prisma](prisma.qmd)
 
 [Simple Story](story.qmd)
+
