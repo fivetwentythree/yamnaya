@@ -2,7 +2,14 @@
 title: Yamnaya Lit Review
 subtitle: Simple Story
 author: Lochana Perera and ChatGPT
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    embed-resources: true
 ---
+
 [Home](index.qmd)
 
 
@@ -12,7 +19,7 @@ Long before the Yamnaya expansion, people living around the Steppe, the lower Vo
 
 
 
-## 1. Before the journey: the Yamnaya did not appear from nowhere
+## Before the journey: the Yamnaya did not appear from nowhere
 
 Imagine the story beginning before there was a fully formed Yamnaya population.
 
@@ -26,7 +33,7 @@ Chintalapati et al. (2022) help place these events in time. Their study suggests
 
 There is still uncertainty. The studies broadly agree on a multi-stage formation process, but they do not identify one perfectly certain birthplace or every exact route. Some possible source populations have not yet been sampled. The lower Volga, Don–Dnipro region, North Caucasus and routes towards Anatolia still need more evidence.
 
-## 2. The launch: rapid movement after about 3300 BCE
+## The launch: rapid movement after about 3300 BCE
 
 After this long formation process, something changed. From about 3300 BCE, Yamnaya-related populations began to spread rapidly across a very large area.
 
@@ -37,7 +44,7 @@ This was not movement in only one direction. The broad pattern was **bidirection
 
 Allentoft et al. (2015) is important because it shows both sides of this pattern. The study found strong genetic connections between Yamnaya and Corded Ware populations in the west, and between Yamnaya and Afanasievo populations in the east. This makes the Yamnaya story a Eurasian story, not only a European one.
 
-## 3. The westward road: movement into Europe
+## The westward road: movement into Europe
 
 The strongest part of the evidence concerns movement west into Europe.
 
@@ -51,7 +58,7 @@ However, we should not imagine that every Corded Ware person came directly from 
 
 This is why the phrase **“Yamnaya-related ancestry”** is safer than saying that every Corded Ware community was simply Yamnaya. The broad family connection and westward movement are strong. The exact source groups and routes are less certain.
 
-## 4. What happened after migrants arrived
+## What happened after migrants arrived
 
 The newcomers did not enter an empty Europe. They met local people. Different regions then developed in different ways.
 
@@ -63,7 +70,7 @@ Scorrano et al. (2021) examined whether Steppe migration was sex-biased. Several
 
 These regional studies change the shape of the story. There was a large westward migration, but there was no single result everywhere. The real pattern included migration, mixture, marriage, local incorporation, family movement and repeated population change.
 
-## 5. Objects, cultures and people are not the same thing
+## Objects, cultures and people are not the same thing
 
 Archaeologists give names such as Yamnaya, Corded Ware, Globular Amphora and Bell Beaker to patterns of burials, pottery and other material remains. These names are useful, but they do not automatically describe one biological population.
 
@@ -75,7 +82,7 @@ Furholt (2018) gives the broader warning behind these examples. We should not tu
 
 The lesson is simple: **sometimes culture moved with people, and sometimes culture moved between people. We have to test each place separately.**
 
-## 6. The eastward road: movement into Inner Asia
+## The eastward road: movement into Inner Asia
 
 The second great road led east.
 
@@ -87,7 +94,7 @@ The broad eastward movement is well supported, but the road between the Steppe a
 
 The safe picture is therefore: **a population closely related to Yamnaya moved rapidly east towards the Altai and Inner Asia, but the exact route and every local stage remain uncertain.**
 
-## 7. The Caucasus and northern Eurasia: important background roads
+## The Caucasus and northern Eurasia: important background roads
 
 The Caucasus was not simply a wall separating north and south. It could also act as a corridor through which people and ancestry moved.
 
@@ -97,13 +104,13 @@ Wong et al. (2017) provide similar broad context for northern Eurasia. Their stu
 
 Together, these studies stop the story from becoming too simple. Yamnaya expansion was important, but it occurred inside a much older network of Eurasian connections.
 
-## 8. Were horses the engine of the first expansion?
+## Were horses the engine of the first expansion?
 
 Horses are often placed at the centre of popular Yamnaya stories. Librado et al. (2021), however, found that the horse lineage that later spread widely did not drive the first movement of human Steppe ancestry into Europe. The great expansion of those domestic horses happened later.
 
 This does not mean horses were unimportant in all later Steppe societies. It means we should not automatically explain the first Yamnaya migration by saying, “They had the later domestic horse system, so they could spread.” The timing does not fit that simple story.
 
-## 9. The language question
+## The language question
 
 We now reach the most interesting and most dangerous part of the story.
 
@@ -144,7 +151,7 @@ The correct wording is therefore:
 
 The incorrect wording would be: “DNA proves the Yamnaya spoke and spread a particular language.”
 
-## 10. The final picture
+## The final picture
 
 The story begins with long-term contact. Different populations around the Caucasus, lower Volga, North Pontic region and Steppe mixed over many generations. From this process, Yamnaya-related ancestry formed.
 

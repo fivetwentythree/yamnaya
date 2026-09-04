@@ -1,0 +1,66 @@
+---
+title: "Yamnaya Lit Review"
+subtitle: "Selection Rubric"
+reference-location: margin
+format:
+  html:
+    toc: true
+    number-sections: false
+    embed-resources: true
+---
+
+[Home](index.qmd)
+
+We have to select 6-10 papers from 51 ^[I am not sure if this is to make a one size fits all rubric. At least you can see the thought process how me and chatgpt came up with this. You can present your ideas if you wish to defer or some alternatives]
+
+## Eligibility
+
+Yes, No or Unresolved for this section
+
+| Criterion | Requirement |
+|:---|:---|
+| Publication | Peer-reviewed original research or reanalysis. |
+| Scope | Yamnaya or explicitly linked Eurasian evidence. |
+| Chronology | 3300–2600 BCE or a necessary earlier/later comparison. |
+| Contribution | Evidence for at least one group topic. |
+| Access | Full text and sufficient methods for assessment. |
+
+
+
+## Relevance
+
+Rated each dimension separately and cited the supporting passage.
+
+| Dimension | 2 | 1 | 0 |
+|:---|:---|:---|:---|
+| Question relevance | Direct result | Necessary context | No contribution |
+| Temporal fit | Focal-period evidence | Necessary comparison | No connection |
+| Each group topic | Substantive analysis | Supporting context | No contribution |
+
+## Methods
+
+Assess the intended claim in each domain.
+
+| Domain | Check |
+|:---|:---|
+| Authenticity | DNA quality, contamination and filtering, or equivalent measurement controls. |
+| Dating | Dates, uncertainty and archaeological attribution. |
+| Sampling | Representation, relatedness and sampling biases. |
+| Analysis | Assumptions, reference populations, sensitivity checks and alternatives. |
+| Interpretation | Claims follow from evidence; ancestry, culture and language remain distinct. |
+| Transparency | Methods, supplements and underlying data are assessable. |
+
+Use **Low concern** for checked safeguards, **Some concern** for a limitation
+requiring qualification, **High concern** for a threat to validity, and
+**Unclear** for missing assessment. Explain any Not applicable rating.
+
+## Selection and record
+
+1. Within each topic, prioritised eligible papers by citation count first, sample size second and 
+   journal prestige third^[Journal prestige can be inferred as a proxy for quality research]. Ignored publication recency.
+2. Covered supported topics and western/eastern migration. Under this review's
+   design rule, more than half the set must analyse human ancient DNA.
+3. Added papers up to ten for missing coverage, distinct tests or credible
+   competing explanations. Retained overlapping datasets only for added value.
+
+

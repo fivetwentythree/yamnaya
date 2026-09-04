@@ -8,6 +8,10 @@ author: Lochana Perera
 
 [Prisma](prisma.qmd)
 
+[Selection Rubric](rubric.qmd)
+
 [Simple Story](story.qmd)
+
+[10 Papers](papers.qmd)
 
 

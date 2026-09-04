@@ -1,0 +1,31 @@
+---
+title: "Yamnaya Lit Review"
+subtitle: "Ten recommended papers"
+reference-citation: margin
+format:
+  html:
+    toc: true
+    number-sections: false
+    embed-resources: true
+---
+[Home](index.qmd)
+
+
+| Rank | Paper | Citations | Journal | Reported sample | Subtopics covered |
+|---:|:---|---:|:---|:---|:---|
+| 1 | Haak et al. (2015). [Massive migration from the steppe was a source for Indo-European languages in Europe](https://doi.org/10.1038/nature14317) | [1,352](https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=paper-finder&SrcAuth=WosAPI&KeyUT=WOS:000356016700037&DestLinkType=FullRecord&DestApp=WOS_CPL) | Nature | 69 new individuals | Genetics,western migration,language inference |
+| 2 | Allentoft et al. (2015). [Population genomics of Bronze Age Eurasia](https://doi.org/10.1038/nature14507) | [1,141](https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=paper-finder&SrcAuth=WosAPI&KeyUT=WOS:000356016700029&DestLinkType=FullRecord&DestApp=WOS_CPL) | Nature | 101 individuals | Genetics,western and eastern migration,language inference |
+| 3 | Olalde et al. (2018). [The Beaker Phenomenon and the Genomic Transformation of Northwest Europe](https://doi.org/10.1038/nature25738) | [509](https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=paper-finder&SrcAuth=WosAPI&KeyUT=WOS:000426763400040&DestLinkType=FullRecord&DestApp=WOS_CPL) | Nature | 400 individuals; 226 Beaker-associated | Culture,later western migration |
+| 4 | Mathieson et al. (2018). [The genomic history of southeastern Europe](https://doi.org/10.1038/nature25778) | [505](https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=paper-finder&SrcAuth=WosAPI&KeyUT=WOS:000426763400041&DestLinkType=FullRecord&DestApp=WOS_CPL) | Nature | 225 individuals; 216 new | Origins, genetics, southeastern migration |
+| 5 | Wang et al. (2021). [Genomic insights into the formation of human populations in East Asia](https://doi.org/10.1038/s41586-021-03336-2) | [330](https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=paper-finder&SrcAuth=WosAPI&KeyUT=WOS:000627286100001&DestLinkType=FullRecord&DestApp=WOS_CPL) | Nature | 166 new individuals, 130 in main analysis | Genetics,eastern migration, language inference |
+| 6 | Jones et al. (2015). [Upper Palaeolithic genomes reveal deep roots of modern Eurasians](https://doi.org/10.1038/ncomms9912) | [319](https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=paper-finder&SrcAuth=WosAPI&KeyUT=WOS:000366378900014&DestLinkType=FullRecord&DestApp=WOS_CPL) | Nature Communications | 3 new individuals | Origins, genetics |
+| 7 | Librado et al. (2021). [The origins and spread of domestic horses from the Western Eurasian steppes](https://doi.org/10.1038/s41586-021-04018-9) | [268](https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=paper-finder&SrcAuth=WosAPI&KeyUT=WOS:000709352200002&DestLinkType=FullRecord&DestApp=WOS_CPL) | Nature | 273 horses | Technology: horses and transport, mobility |
+| 8 | Schroeder et al. (2019). [Unraveling ancestry, kinship, and violence in a Late Neolithic mass grave](https://doi.org/10.1073/pnas.1820210116) | [139](https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=paper-finder&SrcAuth=WosAPI&KeyUT=WOS:000469280300023&DestLinkType=FullRecord&DestApp=WOS_CPL) | PNAS | 15 individuals in the focal grave | Culture: kinship and burials in neighbouring communities |
+| 9 | Saag et al. (2017). [Extensive Farming in Estonia Started through a Sex-Biased Migration from the Steppe](https://doi.org/10.1016/j.cub.2017.06.022) | [111](https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=paper-finder&SrcAuth=WosAPI&KeyUT=WOS:000406178400031&DestLinkType=FullRecord&DestApp=WOS_CPL) | Current Biology | 10 individuals: 5 hunter-gatherers, 5 farmers | Lifestyle: subsistence, genetics, sex-biased migration |
+| 10 | Ringbauer et al. (2024). [Accurate detection of identity-by-descent segments in human ancient DNA](https://doi.org/10.1038/s41588-023-01582-w) | [105](https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=paper-finder&SrcAuth=WosAPI&KeyUT=WOS:001128708200003&DestLinkType=FullRecord&DestApp=WOS_CPL) | Nature Genetics | 4,248 published individuals; 304 in the focused comparison | Genetics, ancient-DNA methods, western and eastern connections |
+
+
+The set contains nine human ancient-DNA studies and one horse study. Language coverage is inferential. Independent linguistic analysis, metallurgy and wagons remain gaps.
+
+
+
