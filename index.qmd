@@ -10,5 +10,4 @@ author: Lochana Perera
 
 [Simple Story](story.qmd)
 
-[Assessment](assessmment.qmd)
 
