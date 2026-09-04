@@ -58,3 +58,7 @@ The calculation is `88 - 37 = 51`.
 ### Interpretation rule
 
 `DT=Article` removes records classified as reviews by Web of Science.
+
+### The Rule for our group 
+
+Since we have to collect 6 to 10 articles^[even though I am not sure if this is for each group member] I need to come up with a robust plan to reduce this list.

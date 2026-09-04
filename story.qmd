@@ -1,7 +1,7 @@
 ---
 title: Yamnaya Lit Review
 subtitle: Simple Story
-author: Lochana Perera
+author: Lochana Perera and ChatGPT
 ---
 [Home](index.qmd)
 
