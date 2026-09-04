@@ -9,6 +9,9 @@ execute:
   message: false
 ---
 [Home](index.qmd)
+
+
+For the full criteria refer for exclusion and inclusion of the papers please refer to [this](assessmment.qmd)
 ```{r}
 #| label: build-prisma
 #| include: false

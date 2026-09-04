@@ -1,0 +1,80 @@
+---
+title: "Yamnaya Lit Review"
+subtitle: "Full Text Assessment"
+author: Lochana Perera
+format:
+  html:
+    embed-resources: true
+execute:
+  echo: false
+  message: false
+---
+[Home](index.qmd)
+
+
+Scope: original peer-reviewed research on Yamnaya or Yamnaya-related migration across Eurasia and complementary original research on Indo-European dispersal. The core archaeological period is 3300-2600 BCE; earlier and later studies are retained only when they clarify formation, route, mechanism or consequence.
+
+## PRISMA eligibility result
+
+| Measure | Count |
+|---|---:|
+| Reports sought for retrieval | 35 |
+| Reports not retrieved | 2 |
+| Reports assessed for eligibility | 33 |
+| Reports excluded after full-text assessment | 1 |
+| Studies included in this section | 32 |
+
+## Included evidence
+
+| ID | Citation | Tier | Focus | Essential finding | Main limitation |
+|---|---|---|---|---|---|
+| S001 | Haak et al. (2015) | Core | Westward migration; language | Corded Ware individuals derived about 75% of their ancestry from Yamnaya-related groups about 2,600 km east, supporting a large third-millennium migration into central Europe. | The language link is an inference from genetic, archaeological and chronological agreement. |
+| S002 | Allentoft et al. (2015) | Core | Westward and eastward expansion; language | Genomes from 101 ancient Eurasians link Yamnaya-related movement westward and Afanasievo movement eastward to large Bronze Age population shifts. | Broad sampling masks local variation; language is not observed genetically. |
+| S004 | Sjögren et al. (2016) | Contextual | Mobility mechanism | First-generation mobility was high in two Corded Ware cemeteries in southern Germany, especially among women, consistent with sustained female exogamy after the steppe-related expansion. | Isotopes identify non-local people but rarely locate their place of origin; no new ancient DNA was generated. |
+| S007 | Saag et al. (2017) | Core | Northeastern route; sex bias | The first farmers sampled in Estonia carried predominantly steppe ancestry, indicating migration into the eastern Baltic and sex-specific admixture with farmer-related groups. | The result is based on ten individuals from one regional transect. |
+| S008 | Tassi et al. (2017) | Contextual | Population interaction; language | Globular Amphora individuals lacked Yamnaya-related ancestry, whereas later Corded Ware and Bell Beaker groups retained a direct maternal connection to Yamnaya populations. | The sampled Globular Amphora sites may not represent the entire cultural complex; linguistic implications remain indirect. |
+| S010 | Nikitin et al. (2017) | Core | North Pontic continuity | Western North Pontic mitochondrial lineages show continuity from Eneolithic groups into Yamnaya and later Early Bronze Age groups, with two Yamnaya individuals carrying an eastern Eurasian lineage. | Twelve mitochondrial sequences provide limited resolution and cannot reconstruct total population movement. |
+| S011 | Fernandes et al. (2018) | Contextual | Central European admixture | Steppe ancestry appeared in Corded Ware individuals in north-central Poland but with a smaller contribution and more local hunter-gatherer ancestry than in other regions. | Seventeen individuals from one region limit wider generalization. |
+| S013 | Hollard et al. (2018) | Core | Eastward Afanasievo route | Uniparental markers support a genetic link between Afanasievo and Yamnaya populations, but the data do not support an Afanasievo paternal migration into the Tarim Basin. | Small samples and uniparental markers cannot resolve all migration routes. |
+| S014 | Olalde et al. (2018) | Contextual | Later westward expansion | The initial Beaker spread between Iberia and central Europe was mainly cultural, but later Beaker-associated migration carried steppe ancestry to Britain and replaced about 90% of its gene pool. | Most of the demographic change occurred after 2600 BCE and concerns Yamnaya-derived populations. |
+| S015 | Mathieson et al. (2018) | Core | Southeastern European corridor | Southeastern Europe was a long-term contact zone; steppe-related gene flow preceded the major third-millennium migration, and western Yamnaya individuals show local southeastern European admixture. | The study covers a long period, and proposed language scenarios are interpretive. |
+| S016 | Malmström et al. (2019) | Core | Scandinavian route | Battle Axe individuals carried substantial Pontic-Caspian steppe ancestry that requires migration into Scandinavia, followed by mixture with resident farmers. | Only a small number of Battle Axe individuals was available. |
+| S017 | Schroeder et al. (2019) | Contextual | Coexistence and possible conflict | A contemporaneous Globular Amphora family lacked steppe ancestry, showing that local populations remained genetically distinct during Corded Ware expansion. | A link between the massacre and incoming Corded Ware groups is possible but unproven. |
+| S018 | Linderholm et al. (2020) | Contextual | Regional admixture; sex bias | Corded Ware individuals in southeastern Poland combined paternal steppe signals with maternal Neolithic lineages, and genomic-isotopic evidence linked local and non-local relatives. | The authors caution that sample size and genomic coverage limit inference. |
+| S019 | Racimo et al. (2020) | Core | Migration direction and speed | Spatial modelling identifies a westward expansion from the Caspian steppe at about 4.2 km per year using a 50% ancestry threshold, at least twice the estimated Neolithic rate. | Speed estimates depend on ancestry thresholds, the assumed origin and uneven ancient-genome coverage. |
+| S021 | Ochir-Goryaeva et al. (2021) | Contextual | Yamnaya-Catacomb continuity | Two Catacomb males carried paternal and maternal lineages also found among Yamnaya individuals, consistent with continuity in the eastern European steppe after the focal period. | Two uniparental profiles can suggest, but cannot establish, close population continuity. |
+| S022 | Papac et al. (2021) | Contextual | Central European diversity | Corded Ware groups appeared in Bohemia by about 2900 BCE, were initially diverse, did not obtain all steppe ancestry from sampled Yamnaya groups, and incorporated women from varied backgrounds. | A dense regional transect does not by itself identify the unsampled steppe source. |
+| S024 | Wang et al. (2021) | Core | Eastward route; proto-Tocharian | Yamnaya-derived Afanasievo ancestry reached western Mongolia after about 3000 BCE, later declined there, and persisted farther west in China in a pattern compatible with proto-Tocharian dispersal. | The proto-Tocharian association is a multidisciplinary inference, not a genetic observation. |
+| S025 | Egfjord et al. (2021) | Contextual | Northern European expansion | Single Grave Culture individuals in Denmark carried substantial Yamnaya-derived ancestry, opposing demographic continuity with the preceding Funnel Beaker population. | Only three partial genomes were recovered, and broader representativeness is uncertain. |
+| S027 | Rio et al. (2021) | Core | Migration mechanism | Simulations favour rare long-distance movement, prolonged farmer-pastoralist cohabitation and limited admixture during expansion from the Pontic steppe into central Europe. | Results depend on model structure and ancestry estimates drawn from published genomes. |
+| S028 | Scorrano et al. (2021) | Core | Sex-biased migration | Reanalysis indicates a male-biased steppe contribution in central European Corded Ware groups and a weaker bias in Bell Beaker groups, with little detectable mitochondrial replacement. | The analysis inherits geographic and preservation biases from published datasets. |
+| S031 | Kroonen et al. (2022) | Core | Linguistic homeland | Reconstructed cereal vocabulary places core Indo-European in a mixed agro-pastoral setting, making western Yamnaya near or west of the Dnieper a better linguistic proxy than early eastern Yamnaya. | This is linguistic evidence; etymological reconstruction and archaeological matching remain contestable. |
+| S032 | Broccard et al. (2022) | Contextual | Demographic turnover | Mitochondrial simulations find that substantial post-Neolithic immigration, explicitly modelled from the Pontic steppe, best explains central European genetic discontinuity. | Mitochondrial data cannot uniquely identify the source, timing or sex composition of the migration. |
+| S034 | Chintalapati et al. (2022) | Core | Admixture chronology; language | Admixture dating places Yamnaya-Afanasievo genetic formation around 4400-4000 BCE and indicates rapid, near-synchronous Corded Ware mixture across Europe around 3000-2900 BCE. | Dates assume simplified admixture histories and remain sensitive to sparse sampling and source choice. |
+| S035 | Gerber et al. (2023) | Contextual | Carpathian Basin turnover | Western Hungarian genomes show high steppe ancestry in Somogyvár-Vinkovci groups, followed by replacement by a population with unusually high hunter-gatherer ancestry. | The study is regional and much of its sample falls after the focal Yamnaya period. |
+| S039 | Ghalichi et al. (2024) | Core | Caucasus-steppe interaction | Genomes from the Caucasus show that steppe ancestry formed during Eneolithic interaction across the mountain-steppe boundary, followed by Early Bronze Age pastoralist expansion with relative genetic stability. | The wide temporal scope emphasizes formation and regional interaction more than long-distance dispersal. |
+| S040 | Nikitin et al. (2025) | Core | North Pontic formation and expansion | Three migration waves entered the North Pontic region; Caucasus-Lower Volga migrants helped form Serednii Stih, whose descendants formed Yamnaya around 4000 BCE and expanded after 3300 BCE. | Ancestry models depend on the available reference populations and geographic sampling. |
+| S042 | Roca-Rada et al. (2025) | Contextual | Western endpoint; sex bias | Early Bronze Age Catalans combined local continuity with steppe-related ancestry along a southward Iberian gradient; an eastern European maternal lineage argues against an exclusively male migration. | The evidence comes from a small number of people at one site. |
+| S044 | Bourgeois et al. (2025) | Contextual | Cultural versus genetic spread | Radiocarbon modelling shows that Corded Ware and Bell Beaker burial practices spread rapidly and were not synchronized with the east-west spread of steppe ancestry; Corded Ware practices consolidated near 2600 BCE. | The study adds archaeological chronology but relies on published genetic arrival models. |
+| S045 | Roca-Rada et al. (2025) | Contextual | Western Eurasian endpoint | Portuguese Bronze Age genomes retain substantial local ancestry despite North Pontic steppe input, showing that the westward expansion produced regional admixture rather than uniform replacement. | The 5,000-year transect gives limited attention to the focal Bronze Age interval. |
+| S046 | Lazaridis et al. (2025) | Core | Formation routes; Indo-Anatolian | Caucasus-Lower Volga ancestry moved west and mixed with Dnipro-Don foragers to form Serednii Stih, ancestral to Yamnaya; related movement into Anatolia supports a proposed proto-Indo-Anatolian link. | The language assignment is inferential and the demographic model depends on sampled proxies. |
+| S048 | Olalde et al. (2026) | Contextual | Cultural adoption and later expansion | Lower Rhine communities adopted Corded Ware practices with little steppe gene flow; later fusion with migrants of both sexes formed Beaker groups that expanded into northwestern Europe and Britain. | The study concerns a regional exception and much of the expansion post-dates 2600 BCE. |
+| S051 | Zhao et al. (2026) | Core | Xinjiang route | Afanasievo-related ancestry entered northwestern Xinjiang in the Early Bronze Age alongside Central Asian ancestry, identifying the Inner Asian Mountain Corridor as an eastward migration route. | Ten individuals from one site limit temporal and regional resolution; language was not tested. |
+
+## Full-text exclusion
+
+| ID | Citation | Primary reason | Decision note |
+|---|---|---|---|
+| S009 | Wong et al. (2017) | E6 No direct relevance | The principal analysis concerns Siberian and northeastern European ancestry. Yamnaya genomes are comparators, and the inferred Siberian gene flow predates Yamnaya. |
+
+## Reports not retrieved
+
+| ID | DOI | Reason |
+|---|---|---|
+| S006 | 10.17223/18572685/43/3 | Full text and abstract were unavailable; publication type and direct relevance remain unresolved. |
+| S037 | 10.1093/molbev/msae122 | No PDF was available in the group library; no eligibility decision was made. |
+
+## Interpretation rule
+
+Ancient DNA can identify ancestry change, admixture, biological continuity, sex bias and the timing or direction of gene flow. It cannot identify a spoken language. Language conclusions in the included studies are therefore treated as hypotheses supported to varying degrees by genetic, archaeological, chronological and linguistic agreement.
+
