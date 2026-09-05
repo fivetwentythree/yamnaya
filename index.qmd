@@ -14,4 +14,6 @@ author: Lochana Perera
 
 [10 Papers](papers.qmd)
 
+[Evidence Table](evidence-table.qmd)
+
 

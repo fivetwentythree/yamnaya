@@ -1,0 +1,110 @@
+---
+title: "Yamnaya Lit Review"
+subtitle: "Evidence Table"
+format:
+  html:
+    toc: false
+    number-sections: false
+    embed-resources: true
+    page-layout: full
+    include-in-header:
+      text: |
+        <style>
+        main.content { max-width: 1280px; margin: 0 auto; }
+        table { width: 100%; font-size: 0.94rem; }
+        th, td { vertical-align: top; padding: 0.7rem 0.8rem !important; }
+        table:first-of-type th:nth-child(1) { width: 14%; }
+        table:first-of-type th:nth-child(2) { width: 18%; }
+        table:first-of-type th:nth-child(3) { width: 52%; }
+        table:first-of-type th:nth-child(4) { width: 16%; }
+        td strong { color: #25556b; font-weight: 650; }
+        tbody tr:nth-child(even) { background: #f6f8fa; }
+        details { margin: 1.5rem 0; }
+        @media print { thead { display: table-header-group; } tr { break-inside: avoid; } }
+        </style>
+---
+
+[Home](index.qmd)
+
+
+**Subtopics:** Origins, Lifestyle and culture, Genetics, Technology, Migration, Language.
+
+The main period is 3300–2600 BCE. Earlier findings explain origins; later findings show subsequent movement or change. “Steppe-related ancestry” means genetic similarity to steppe populations. It does not by itself identify a culture or spoken language. Sentences beginning “the authors” identify interpretations or qualifications. Subtopic labels and comments about relevance to the review are our organisation of the evidence.
+
+The table covers points relevant to this Yamnaya review, rather than every result on unrelated populations in these broad studies. Evidence about Corded Ware, Bell Beaker, Globular Amphora and later horse use should retain those population and date labels when used in the review.
+
+| Paper | Subtopic | Point to use in the review | Where to check |
+|:---|:---|:---|:---|
+| [Haak (2015)](https://doi.org/10.1038/nature14317) | **Origins** **Genetics** | The sampled Yamnaya combined eastern European hunter-gatherer ancestry with ancestry related to the Near East. This paper did not identify the exact southern source. | pp. 209–210 |
+| [Haak (2015)](https://doi.org/10.1038/nature14317) | **Migration** **Genetics** | The sampled Corded Ware people in Germany around 2500 BCE had about 75% Yamnaya-related ancestry. This supports a large movement from the steppe into central Europe. | pp. 207, 210; Figure 3 |
+| [Haak (2015)](https://doi.org/10.1038/nature14317) | **Migration** | The sampled Yamnaya from Samara may not be the direct ancestors of German Corded Ware people. A western or earlier steppe population could be the source. | p. 210 |
+| [Haak (2015)](https://doi.org/10.1038/nature14317) | **Migration** **Genetics** | Changes in maternal and paternal lineages suggest that both women and men took part in the migration. | p. 210 |
+| [Haak (2015)](https://doi.org/10.1038/nature14317) | **Genetics** **Migration** | Later Bell Beaker and Unetice groups had less Yamnaya-related ancestry than the sampled Corded Ware group. Farmer and hunter-gatherer ancestry increased again. | p. 210; Figure 3 |
+| [Haak (2015)](https://doi.org/10.1038/nature14317) | **Language** | The authors interpret the migration as support for a steppe source of some European Indo-European languages. Their data cannot locate the homeland of the whole language family. | pp. 210–211 |
+| [Allentoft (2015)](https://doi.org/10.1038/nature14507) | **Migration** **Genetics** | Corded Ware groups combined steppe-related ancestry with ancestry from European farmers. The amount of steppe ancestry varied among Bronze Age European groups. | pp. 168–169; Figure 2 |
+| [Allentoft (2015)](https://doi.org/10.1038/nature14507) | **Migration** | The sampled Afanasievo and Yamnaya people were genetically very similar. The authors interpret this as a long-distance movement east to the Altai-Sayan region. | p. 169; Figure 3 |
+| [Allentoft (2015)](https://doi.org/10.1038/nature14507) | **Migration** **Genetics** | Sintashta people shared ancestry with Corded Ware people, including European farmer ancestry. A later movement back east is proposed, but direct descent was not established. | pp. 169, 171 |
+| [Allentoft (2015)](https://doi.org/10.1038/nature14507) | **Migration** **Genetics** | Later Bronze Age groups in Asia gained more East Asian ancestry. This shows that population change continued after the early Yamnaya-related expansion. | pp. 169–171; Figure 3 |
+| [Allentoft (2015)](https://doi.org/10.1038/nature14507) | **Lifestyle and culture**; **Genetics** | A genetic variant linked to digesting milk as an adult was uncommon in Bronze Age Europeans. Its low frequency does not establish whether people consumed dairy foods. | p. 171; Figure 4 |
+| [Allentoft (2015)](https://doi.org/10.1038/nature14507) | **Genetics** | Variants linked to lighter skin were common in Bronze Age Europeans. The tested blue-eye variant was absent in the sampled Pontic-Caspian steppe groups. | p. 171; Figure 4 |
+| [Allentoft (2015)](https://doi.org/10.1038/nature14507) | **Language** | The authors link early steppe migrations to possible Indo-European dispersal and propose an Afanasievo connection to Tocharian. They state that cultural, genetic and language links need individual assessment. | pp. 170–171 |
+| [Olalde (2018)](https://doi.org/10.1038/nature25738) | **Lifestyle and culture** | Beaker-associated people in Iberia and central Europe had different ancestry. The authors conclude that shared pottery styles spread partly through cultural exchange. | pp. 190–192, 194 |
+| [Olalde (2018)](https://doi.org/10.1038/nature25738) | **Migration**; **Genetics** | Beaker-associated migrants brought substantial steppe-related ancestry to Britain after about 2450 BCE. The study estimates about 90% replacement of earlier British ancestry by the Middle Bronze Age. | pp. 193–194; Figure 3 |
+| [Olalde (2018)](https://doi.org/10.1038/nature25738) | **Migration** | British Beaker people were closest to the sampled Beaker group from the Netherlands. The authors leave other continental source regions open because sampling was incomplete. | pp. 193–194 |
+| [Olalde (2018)](https://doi.org/10.1038/nature25738) | **Migration** **Genetics** | Both maternal and paternal lineages changed in Britain. This suggests that women and men participated in the population movement. | p. 193 |
+| [Olalde (2018)](https://doi.org/10.1038/nature25738) | **Genetics**; **Lifestyle and culture** | Variants linked to lighter skin and eyes increased in Britain after Beaker arrival. The variant linked to adult milk digestion stayed rare. | pp. 193–194 |
+| [Olalde (2018)](https://doi.org/10.1038/nature25738) | **Migration** | The British example mainly concerns events after the review’s 3300–2600 BCE focus. The authors also note that burial differences could make the ancestry change appear more sudden. | p. 194, Discussion |
+| [Mathieson (2018)](https://doi.org/10.1038/nature25778) | **Origins** **Genetics** | People in Ukraine before the Yamnaya period already had mixed hunter-gatherer, steppe-related and farmer-related ancestry. This helps explain the population background to Yamnaya formation. | p. 199; Figures 1–2 |
+| [Mathieson (2018)](https://doi.org/10.1038/nature25778) | **Origins** **Genetics** | Two Yamnaya-associated individuals from Ukraine and Bulgaria had farmer-related ancestry. The Yamnaya samples therefore did not all have the same ancestry profile. | p. 199 |
+| [Mathieson (2018)](https://doi.org/10.1038/nature25778) | **Migration** | Two people in Bulgaria had steppe-related ancestry around 4700–4450 BCE. These early contacts were occasional and preceded the main third-millennium expansion. | p. 200 |
+| [Mathieson (2018)](https://doi.org/10.1038/nature25778) | **Genetics** **Lifestyle and culture** | The sampled Globular Amphora people lacked steppe-related ancestry despite living near steppe-influenced cultures. Cultural contact did not always lead to detectable population mixing. | p. 200 |
+| [Mathieson (2018)](https://doi.org/10.1038/nature25778) | **Migration** **Genetics** | Balkan Bronze Age groups had variable amounts of steppe-related ancestry. It was higher in the study’s later samples, so one replacement estimate cannot describe every period. | p. 200 |
+| [Mathieson (2018)](https://doi.org/10.1038/nature25778) | **Language** **Migration** | The sampled Bronze Age Anatolians lacked the expected steppe ancestry for one proposed migration route. The authors discuss alternative language routes, while stressing the small sample and possible spread without large migration. | p. 201, Anatolia analysis |
+| [Wang (2021)](https://doi.org/10.1038/s41586-021-03336-2) | **Migration** **Genetics** | Yamnaya-related ancestry reached western Mongolia with Afanasievo-associated people around 3100–3000 BCE. This supports an early eastward expansion. | pp. 413, 418 |
+| [Wang (2021)](https://doi.org/10.1038/s41586-021-03336-2) | **Lifestyle and culture** **Genetics** | One child buried in an Afanasievo context lacked Yamnaya-related ancestry. Burial traditions therefore did not identify ancestry in every case. | p. 418 |
+| [Wang (2021)](https://doi.org/10.1038/s41586-021-03336-2) | **Migration** **Genetics** | Early Afanasievo-related ancestry largely disappeared from the sampled Mongolian populations. Later steppe ancestry there was better explained by Sintashta-related migration. | p. 418; Figure 3 |
+| [Wang (2021)](https://doi.org/10.1038/s41586-021-03336-2) | **Migration** **Genetics** | Afanasievo-related ancestry persisted in some Iron Age people from Shirenzigou in Xinjiang. This is later evidence for the survival of an earlier eastern expansion. | p. 418; Figure 3 |
+| [Wang (2021)](https://doi.org/10.1038/s41586-021-03336-2) | **Language** | The authors interpret the eastern ancestry pattern as support for an Afanasievo route for proto-Tocharian. This language link is an interpretation of population history. | pp. 418–419 |
+| [Jones (2015)](https://doi.org/10.1038/ncomms9912) | **Origins** **Genetics** | Two ancient people from Georgia reveal a distinct Caucasus hunter-gatherer ancestry. Their similarity suggests local continuity long before the Yamnaya period. | Results: continuity analysis |
+| [Jones (2015)](https://doi.org/10.1038/ncomms9912) | **Origins** **Genetics** | The authors estimate that about half of the sampled Yamnaya ancestry came from Caucasus-related sources. This identifies an ancestral contribution, not an exact Yamnaya birthplace. | Discussion |
+| [Jones (2015)](https://doi.org/10.1038/ncomms9912) | **Migration** | Caucasus-related ancestry spread west through Yamnaya-related populations and also reached South Asia. The timing of the eastern movement remained unresolved. | Discussion |
+| [Jones (2015)](https://doi.org/10.1038/ncomms9912) | **Language** | The authors suggest a possible link between eastern ancestry movement and Indo-European language spread. Earlier movements associated with farming or herding remain possible. | Discussion |
+| [Librado (2021)](https://doi.org/10.1038/s41586-021-04018-9) | **Technology** **Origins** | Genetic analysis places the ancestors of modern domestic horses mainly in the lower Volga-Don region. This finding concerns horse origins. | pp. 635–636 |
+| [Librado (2021)](https://doi.org/10.1038/s41586-021-04018-9) | **Technology** **Migration** | The modern domestic horse lineage spread widely around 2200–2000 BCE, later than the main Yamnaya expansion. | p. 636 |
+| [Librado (2021)](https://doi.org/10.1038/s41586-021-04018-9) | **Technology** **Migration** | Horses from sampled Corded Ware contexts lacked substantial ancestry from Yamnaya-region horses. This challenges the claim that horses drove the earlier migration into Europe. | pp. 636, 638 |
+| [Librado (2021)](https://doi.org/10.1038/s41586-021-04018-9) | **Technology** **Genetics** | Selection near two genes suggests changes in horse movement and behaviour. The authors interpret these as adaptations useful for riding and chariotry. | pp. 636–637 |
+| [Librado (2021)](https://doi.org/10.1038/s41586-021-04018-9) | **Language** **Technology** | The authors associate later horse and chariot spread with Indo-Iranian dispersal. This is a historical interpretation, separate from the horse genetic results. | pp. 634, 638 |
+| [Schroeder (2019)](https://doi.org/10.1073/pnas.1820210116) | **Lifestyle and culture** | The 15 people in the Koszyce mass grave belonged to an extended family. Mothers, children and siblings were buried close to one another. | pp. 10705–10707; Figure 3 |
+| [Schroeder (2019)](https://doi.org/10.1073/pnas.1820210116) | **Lifestyle and culture** | The burial arrangement suggests that those who buried the dead knew their family relationships and treated those relationships as important. | pp. 10707, 10709 |
+| [Schroeder (2019)](https://doi.org/10.1073/pnas.1820210116) | **Lifestyle and culture**; **Genetics** | Related men and unrelated women suggest family organisation through the male line. Isotope results did not clearly show that the women had moved from elsewhere. | pp. 10707–10708 |
+| [Schroeder (2019)](https://doi.org/10.1073/pnas.1820210116) | **Genetics** **Migration** | The Koszyce family lacked steppe-related ancestry. They were Globular Amphora people, providing a comparison with nearby Corded Ware groups. | pp. 10705–10706; Figure 2 |
+| [Schroeder (2019)](https://doi.org/10.1073/pnas.1820210116) | **Lifestyle and culture** | All 15 individuals had fatal head injuries. Their injuries suggest capture and execution, although the attackers cannot be identified. | pp. 10708–10709 |
+| [Schroeder (2019)](https://doi.org/10.1073/pnas.1820210116) | **Migration** **Lifestyle and culture** | The massacre dates to around 2880–2776 BCE, near Corded Ware expansion. The authors propose a possible conflict link; this does not establish that migrants caused the massacre. | pp. 10705, 10709 |
+| [Saag (2017)](https://doi.org/10.1016/j.cub.2017.06.022) | **Migration** **Lifestyle and culture** | The first farmers sampled in Estonia carried substantial steppe ancestry. The authors link the spread of farming and animal husbandry to incoming Corded Ware people. | pp. 2185, 2189–2190 |
+| [Saag (2017)](https://doi.org/10.1016/j.cub.2017.06.022) | **Genetics** **Migration** | Ancestry differed between the X chromosome and other chromosomes. This suggests a stronger male steppe contribution and some farmer-related ancestry entering through women. | p. 2189; Figure 3D |
+| [Saag (2017)](https://doi.org/10.1016/j.cub.2017.06.022) | **Origins** **Genetics** | Earlier Comb Ceramic hunter-gatherers already showed eastern ancestry links. An eastern genetic component alone cannot identify Corded Ware or Yamnaya migration. | pp. 2187, 2189 |
+| [Saag (2017)](https://doi.org/10.1016/j.cub.2017.06.022) | **Genetics** **Migration** | The study sampled ten people from Estonia. Their ancestry does not fully explain modern Estonians, so later population changes are also needed. | pp. 2185, 2190 |
+| [Ringbauer (2024)](https://doi.org/10.1038/s41588-023-01582-w) | **Genetics** | A new method detects long shared genetic segments in ancient genomes, revealing recent ancestry links beyond broad population similarity. | pp. 143, 149 |
+| [Ringbauer (2024)](https://doi.org/10.1038/s41588-023-01582-w) | **Migration** **Genetics** | Yamnaya and Afanasievo shared long genetic segments. The authors infer eastward movement only a few generations before the sampled Afanasievo individuals. | p. 148; Figure 4 |
+| [Ringbauer (2024)](https://doi.org/10.1038/s41588-023-01582-w) | **Migration** | Two Afanasievo relatives were buried 1,410 kilometres apart. This supports substantial movement within their family network; their exact relationship is uncertain. | pp. 148–149; Figure 5 |
+| [Ringbauer (2024)](https://doi.org/10.1038/s41588-023-01582-w) | **Genetics** **Migration** | Corded Ware groups shared recent ancestry with Yamnaya and Globular Amphora-related people. Both sources contributed to their formation. | p. 149; Figure 4 |
+| [Ringbauer (2024)](https://doi.org/10.1038/s41588-023-01582-w) | **Genetics** | Detection depends on genetic data quality and segment length. The study reanalyses published genomes, so its samples overlap earlier research. | pp. 148–150 |
+
+
+<details>
+<summary>Full paper titles and source records</summary>
+
+| Paper | Article | Screening record |
+|:---|:---|:---|
+| Haak (2015) | [Massive migration from the steppe was a source for Indo-European languages in Europe](https://doi.org/10.1038/nature14317) | S001 |
+| Allentoft (2015) | [Population genomics of Bronze Age Eurasia](https://doi.org/10.1038/nature14507) | S002 |
+| Olalde (2018) | [The Beaker Phenomenon and the Genomic Transformation of Northwest Europe](https://doi.org/10.1038/nature25738) | S014 |
+| Mathieson (2018) | [The genomic history of southeastern Europe](https://doi.org/10.1038/nature25778) | S015 |
+| Wang (2021) | [Genomic insights into the formation of human populations in East Asia](https://doi.org/10.1038/s41586-021-03336-2) | S024 |
+| Jones (2015) | [Upper Palaeolithic genomes reveal deep roots of modern Eurasians](https://doi.org/10.1038/ncomms9912) | S003 |
+| Librado (2021) | [The origins and spread of domestic horses from the Western Eurasian steppes](https://doi.org/10.1038/s41586-021-04018-9) | S029 |
+| Schroeder (2019) | [Unraveling ancestry, kinship, and violence in a Late Neolithic mass grave](https://doi.org/10.1073/pnas.1820210116) | S017 |
+| Saag (2017) | [Extensive Farming in Estonia Started through a Sex-Biased Migration from the Steppe](https://doi.org/10.1016/j.cub.2017.06.022) | S007 |
+| Ringbauer (2024) | [Accurate detection of identity-by-descent segments in human ancient DNA](https://doi.org/10.1038/s41588-023-01582-w) | S036 |
+
+</details>
