@@ -16,6 +16,6 @@ author: Lochana Perera
 
 [Evidence Table](evidence-table.qmd)
 
-![](image.png){fig-align="right" width="500px"}
+![](manq.png){fig-align="right" width="500px"}
 
 
