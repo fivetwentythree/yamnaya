@@ -11,7 +11,7 @@ format:
 
 [Home](index.qmd)
 
-We have to select 6-10 papers from 51 ^[qAt least you can see the thought process how me and chatgpt came up with this. You can present your ideas if you wish to defer or some alternatives]
+We have to select 6-10 papers from 51 ^[At least you can see the thought process how me and chatgpt came up with this. You can present your ideas if you wish to defer or have some alternatives]
 
 ## Eligibility
 
