@@ -13,25 +13,218 @@ execute:
 
 [Home](index.qmd)
 
+[The diagram below](#fig-prisma) adds the [selection rubric](rubric.qmd) to the recorded screening.
+
 ```{r}
-#| label: build-prisma-selection
-#| include: false
-source(
-  "/Users/lochana-mbp/Documents/Personal/UWA /SCIE4403 - Ethics /Codex Workflow/scripts/create-prisma-selection.R",
-  local = knitr::knit_global()
+#| label: render-prisma
+#| results: asis
+
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(jsonlite)
+library(xml2)
+
+assessment_path <- file.path(
+  "/Users/lochana-mbp/Documents/Personal/UWA /SCIE4403 - Ethics /Codex Workflow",
+  "outputs/screening/group-eligibility-assessment.json"
+)
+assessment <- fromJSON(assessment_path)
+papers <- assessment$records
+counts <- assessment$counts
+
+# Recalculate every displayed exclusion count from the study-level assessment.
+reason_lines <- function(stage) {
+  reasons <- sort(table(papers$exclusionCategory[stage]), decreasing = TRUE)
+  paste(
+    sprintf("%s (n = %s)", names(reasons), as.integer(reasons)),
+    collapse = "\\n"
+  )
+}
+
+screen_reasons <- reason_lines(papers$screeningDecision == "Exclude")
+fulltext_reasons <- reason_lines(
+  papers$eligibilityDecision == "Full-text excluded"
+)
+screen_reason_counts <- table(
+  papers$exclusionCategory[papers$screeningDecision == "Exclude"]
+)
+
+# Stop rendering if the record-level decisions no longer reconcile with the flow.
+stopifnot(
+  counts$identified - counts$duplicates == counts$screened,
+  counts$screened - counts$screeningExcluded == counts$sought,
+  counts$sought - counts$notRetrieved == counts$assessed,
+  counts$assessed - counts$fullTextExcluded == counts$eligible,
+  counts$eligible - counts$eligibleNotSelected == counts$selected,
+  counts$screeningExcluded == sum(papers$screeningDecision == "Exclude"),
+  counts$fullTextExcluded == sum(
+    papers$eligibilityDecision == "Full-text excluded"
+  ),
+  counts$eligibleNotSelected == sum(
+    papers$eligibilityDecision == "Eligible" & !papers$selected
+  )
+)
+
+dot <- 'digraph prisma {
+  graph [rankdir=TB, bgcolor="white", fontname="Arial",
+         nodesep=0.5, ranksep=0.48, pad=0.15, splines=ortho];
+  node [shape=box, style="filled", fillcolor="white", color="#333333",
+        fontname="Arial", fontsize=14, width=3.9, margin="0.18,0.14",
+        penwidth=1.1];
+  edge [color="#333333", arrowsize=0.65, penwidth=1.0];
+
+  identified [group="main", label="Records identified from Web of Science\n(n = @identified@)"];
+  duplicates [group="removed", label="Duplicate records removed\n(n = @duplicates@)", fillcolor="#f5f5f5"];
+
+  screened [group="main", label="Records screened\n(n = @screened@)"];
+  screen_excluded [group="removed", label="Records excluded* (n = @screeningExcluded@)\n@screen_reasons@", fillcolor="#f5f5f5"];
+
+  sought [group="main", label="Reports sought for retrieval\n(n = @sought@)"];
+  unavailable [group="removed", label="Reports not retrieved†\n(n = @notRetrieved@)", fillcolor="#f5f5f5"];
+
+  assessed [group="main", label="Reports assessed for eligibility\n(n = @assessed@)"];
+  fulltext_excluded [group="removed", label="Reports excluded‡ (n = @fullTextExcluded@)\n@fulltext_reasons@", fillcolor="#f5f5f5"];
+
+  eligible [group="main", label="Reports meeting eligibility criteria\n(n = @eligible@)"];
+
+  ranking [group="main", label="Prioritisation within topics\n1. Web of Science citation count\n2. Comparable sample size\n3. Journal prestige (quality proxy)\nTopic coverage and distinct evidence"];
+  omitted [group="removed", label="Eligible reports not selected§\n(n = @eligibleNotSelected@)\nLower priority within topics\nunder the ten-paper limit", fillcolor="#f5f5f5"];
+
+  included [group="main", label="Studies selected for the focused review\n(n = @selected@)\nReports of selected studies\n(n = @selected@)", fillcolor="#eaf0f4", penwidth=1.6];
+
+  notes [shape=box, style="filled", fillcolor="#fafafa", color="#c8c8c8",
+         fontname="Arial", fontsize=10, width=8.6, margin="0.18,0.12",
+         label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+           <TR><TD ALIGN="LEFT" COLSPAN="2"><FONT POINT-SIZE="10"><B>Notes</B></FONT></TD></TR>
+           <TR><TD ALIGN="RIGHT"><FONT POINT-SIZE="10">*</FONT></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="10">Title/abstract exclusions: non-original reviews or interpretive syntheses (n = @publicationExcluded@);</FONT></TD></TR>
+           <TR><TD></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="10">outside the focal period without a necessary Yamnaya comparison (n = @scopeExcluded@); and</FONT></TD></TR>
+           <TR><TD></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="10">southern African pastoralism, where Yamnaya was used only as an analogy (n = @geographyExcluded@).</FONT></TD></TR>
+           <TR><TD></TD><TD></TD></TR>
+           <TR><TD ALIGN="RIGHT"><FONT POINT-SIZE="10">†</FONT></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="10">One potentially relevant report could not be retrieved because the author manuscript was closed</FONT></TD></TR>
+           <TR><TD></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="10">and the journal issue PDF was inaccessible.</FONT></TD></TR>
+           <TR><TD></TD><TD></TD></TR>
+           <TR><TD ALIGN="RIGHT"><FONT POINT-SIZE="10">‡</FONT></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="10">Full-text assessment excluded one narrative interpretation of published haplogroup and</FONT></TD></TR>
+           <TR><TD></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="10">archaeological findings because it contained no original empirical analysis.</FONT></TD></TR>
+           <TR><TD></TD><TD></TD></TR>
+           <TR><TD ALIGN="RIGHT"><FONT POINT-SIZE="10">§</FONT></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="10">The @eligibleNotSelected@ reports met eligibility criteria but were not selected because the assignment limited the</FONT></TD></TR>
+           <TR><TD></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="10">review to @selected@ reports. Within topics, eligible reports were prioritised by Web of Science citation</FONT></TD></TR>
+           <TR><TD></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="10">count, followed by sample size and journal prestige as a research-quality proxy. Topic coverage</FONT></TD></TR>
+           <TR><TD></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="10">and western/eastern migration evidence were retained in the final set.</FONT></TD></TR>
+         </TABLE>>];
+
+  {rank=same; identified; duplicates;}
+  {rank=same; screened; screen_excluded;}
+  {rank=same; sought; unavailable;}
+  {rank=same; assessed; fulltext_excluded;}
+  {rank=same; ranking; omitted;}
+
+  identified -> screened -> sought -> assessed -> eligible -> ranking -> included;
+  included -> notes [style=invis, minlen=1];
+  identified -> duplicates;
+  screened -> screen_excluded;
+  sought -> unavailable;
+  assessed -> fulltext_excluded;
+  ranking -> omitted;
+  duplicates -> screen_excluded -> unavailable -> fulltext_excluded -> omitted [style=invis];
+}'
+
+labels <- c(
+  counts,
+  list(
+    screen_reasons = screen_reasons,
+    fulltext_reasons = fulltext_reasons,
+    publicationExcluded = unname(screen_reason_counts["Publication type"]),
+    scopeExcluded = unname(screen_reason_counts["Scope or period"]),
+    geographyExcluded = unname(screen_reason_counts["Geographical scope"])
+  )
+)
+for (name in names(labels)) {
+  dot <- gsub(paste0("@", name, "@"), labels[[name]], dot, fixed = TRUE)
+}
+stopifnot(!grepl("@[[:alnum:]_]+@", dot))
+
+# DiagrammeR produces SVG; the remaining code adds the PRISMA stage bands to it.
+svg <- export_svg(grViz(dot))
+document <- read_xml(svg)
+graph <- xml_find_first(document, "//*[@id='graph0']")
+nodes <- xml_find_all(graph, "./*[@class='node']")
+node_names <- xml_text(xml_find_first(nodes, "./*[local-name()='title']"))
+node_bounds <- lapply(nodes, function(node) {
+  polygon <- xml_find_first(node, "./*[local-name()='polygon']")
+  points <- as.numeric(strsplit(xml_attr(polygon, "points"), "[, ]+")[[1]])
+  range(matrix(points, ncol = 2, byrow = TRUE)[, 2])
+})
+names(node_bounds) <- node_names
+
+stages <- list(
+  Identification = c("identified", "duplicates"),
+  Screening = c(
+    "screened", "screen_excluded", "sought", "unavailable",
+    "assessed", "fulltext_excluded", "eligible"
+  ),
+  Selection = c("ranking", "omitted", "included")
+)
+for (stage in names(stages)) {
+  bounds <- range(unlist(node_bounds[stages[[stage]]]))
+  centre <- mean(bounds)
+  height <- max(diff(bounds), 104)
+  xml_add_child(
+    graph, "rect", x = "-52", y = as.character(centre - height / 2),
+    width = "32", height = as.character(height),
+    fill = "#eaf0f4", stroke = "none"
+  )
+  xml_add_child(
+    graph, "text", stage,
+    x = "-36", y = as.character(centre),
+    transform = sprintf("rotate(-90 -36 %s)", centre),
+    `text-anchor` = "middle", `dominant-baseline` = "central",
+    `font-family` = "Arial", `font-size` = "14",
+    `font-weight` = "bold", fill = "#243746"
+  )
+}
+
+# Expand the SVG canvas for the bands and emit the vector graphic directly in HTML.
+view <- as.numeric(strsplit(xml_attr(document, "viewBox"), "[ ,]+")[[1]])
+xml_set_attr(
+  document, "viewBox",
+  paste(view[1] - 60, view[2] - 28, view[3] + 60, view[4] + 28)
+)
+xml_add_child(
+  document, "rect", .where = 0,
+  x = as.character(view[1] - 60), y = as.character(view[2] - 28),
+  width = as.character(view[3] + 60), height = as.character(view[4] + 28),
+  fill = "white"
+)
+xml_set_attr(document, "width", "100%")
+xml_set_attr(document, "height", "auto")
+xml_set_attr(document, "style", "display:block;max-width:1100px;margin:0 auto;")
+xml_set_attr(document, "role", "img")
+xml_set_attr(
+  document,
+  "aria-label",
+  paste(
+    "PRISMA flow diagram showing 88 records identified, 42 eligible reports,",
+    "and 10 reports selected. Notes explain all exclusions and prioritisation."
+  )
+)
+
+svg_inline <- as.character(document)
+svg_inline <- sub("^\\s*<\\?xml[^>]*>\\s*", "", svg_inline, perl = TRUE)
+svg_inline <- sub("^\\s*<!DOCTYPE[^>]*>\\s*", "", svg_inline, perl = TRUE)
+
+cat("```{=html}\n")
+cat(
+  '<figure id="fig-prisma" style="width:min(1100px,calc(100vw - 2rem));',
+  'max-width:none;margin:1rem 0 0;position:relative;left:50%;',
+  'transform:translateX(-50%);">\n',
+  sep = ""
+)
+cat(svg_inline, "\n")
+cat(
+  '<figcaption style="margin-top:.65rem;text-align:center;font-size:.9rem;">',
+  '<strong>Figure 1.</strong> Adapted PRISMA 2020 flow with a review-specific ',
+  'group selection stage. Citation counts checked on 4 September 2026.',
+  '</figcaption>\n</figure>\n```\n\n',
+  sep = ""
 )
 ```
-
-@fig-prisma adds the [selection rubric](rubric.qmd) to the recorded screening.
-Group selection reconsidered all 51 candidates, including papers outside the
-migration and language section.
-
-```{r}
-#| label: fig-prisma
-#| fig-cap: "Adapted PRISMA 2020 flow with a review-specific group selection stage. Citation counts checked on 4 September 2026."
-#| fig-alt: "88 records identified, 37 duplicates removed, 51 candidates. The recorded migration/language screening excluded 16, sought 35 reports, did not retrieve 2, assessed 33 and excluded 1, leaving 32 section reports. A separate group selection reconsidered all 51 using eligibility, relevance, citations, journal prestige as a research-quality proxy, sample size and topic coverage. Ten papers were recommended provisionally; 41 other candidates include reserves, background and unresolved cases."
-#| out-width: "100%"
-#| fig-align: center
-knitr::include_graphics(file.path(output_dir, "prisma-selection.png"))
-```
-

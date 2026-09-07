@@ -1,25 +1,59 @@
 ---
-title: Yamnaya Lit Review
-subtitle: Synthesis Table
-author: Lochana Perera
+title: "Yamnaya Lit Review"
+subtitle: "Concise research synthesis"
+author: "Lochana Perera"
+format:
+  html:
+    toc: false
+    number-sections: false
+    embed-resources: true
+    page-layout: full
 ---
-[Home](index.qmd)
 
-```{r}
-#| label: setup
-#| include: false
+The ten studies support substantial steppe-related migration, with regional differences in admixture and cultural change. Horse dispersal followed the initial expansion; links to language remain interpretations.
 
-library(readxl)
-library(knitr)
-library(dplyr)
-```
+::: {.synthesis-table}
 
+| Study | Evidence base | Key result | Contribution to the review | Main limitation |
+|:--|:--|:--|:--|:--|
+| **Ancestry formation and early contacts** | | | | |
+| [Jones et al. (2015)](https://doi.org/10.1038/ncomms9912) | 3 new genomes: 2 Caucasus and 1 Swiss hunter-gatherer; ancestry modelling. | In this model, Yamnaya ancestry combines roughly equal Caucasus-related and eastern European hunter-gatherer contributions. | Identifies an ancestral component preceding steppe expansion; the proposed Indo-Aryan connection remains undated. | Only 2 Caucasus genomes; source affinities do not establish the transfer route or timing. |
+| [Mathieson et al. (2018)](https://doi.org/10.1038/nature25778) | 225 individuals, 216 analysed; southeastern Europe, 12000–500 BCE; ancestry modelling. | Steppe ancestry in 2 Balkan individuals dated 4711–4450 BCE precedes the main expansion by almost 2,000 years. | Establishes earlier contact; provides no support for a large steppe migration through the Balkans into Bronze Age Anatolia. | Limited Anatolian sampling leaves alternative routes and language scenarios unresolved. |
+| **Westward and eastward expansion** | | | | |
+| [Haak et al. (2015)](https://doi.org/10.1038/nature14317) | 69 ancient Europeans; genetic marker capture and ancestry modelling. | German Corded Ware derives about 73% of its ancestry from a Yamnaya-related source; farmer ancestry persists. | Supports substantial westward migration in the early third millennium BCE, involving both sexes; consistent with steppe dispersal of some Indo-European languages. | Samara Yamnaya may be a proxy source; small groups limit route and ancestry estimates. |
+| [Allentoft et al. (2015)](https://doi.org/10.1038/nature14507) | 101 ancient Eurasian genomes, mainly 3000–1000 BCE; mean sequencing depth 0.73×. | Corded Ware shows strong Yamnaya affinity; sampled Afanasievo is genetically indistinguishable from Yamnaya. European groups also retain Neolithic ancestry. | Extends migration evidence west into Europe and east to the Altai around 3000 BCE; proposes an Afanasievo–Tocharian connection. | Low coverage and small regional groups limit local resolution; language links require separate support. |
+| [Wang et al. (2021)](https://doi.org/10.1038/s41586-021-03336-2) | 166 new East Asian individuals, 130 in the main analysis; 6000 BCE–1000 CE; ancestry modelling. | Mongolian Afanasievo around 3100 BCE resembles Yamnaya; this ancestry later declines in Mongolia but persists in Xinjiang. One Afanasievo-context child lacks it. | Strengthens the eastward migration case and the authors' proposed proto-Tocharian dispersal; shows that cultural affiliation does not ensure shared ancestry. | Uneven sampling and similar candidate sources permit alternative ancestry models. |
+| [Ringbauer et al. (2024)](https://doi.org/10.1038/s41588-023-01582-w) | 4,248 published genomes; focused comparison of 304 individuals, 3000–2000 BCE; ancIBD segment analysis. | Corded Ware shares inherited segments up to 20 cM with Yamnaya. About three-quarters of its ancestry has recent Yamnaya links; one-quarter links to Globular Amphora. | Constrains shared ancestry to at most a few hundred years; also supports recent Yamnaya–Afanasievo connections. | Detection depends on coverage and imputation; reliable segments are mainly longer than 8 cM. |
+| **Regional outcomes and social context** | | | | |
+| [Olalde et al. (2018)](https://doi.org/10.1038/nature25738) | 400 Europeans, including 226 Beaker-associated individuals; ancestry models and radiocarbon dating. | Iberian and central European Beaker groups show limited affinity. In Britain, migration after about 2450 BCE yields a minimum 90 ± 2% population turnover by 1500–1000 BCE. | Demonstrates regional differences: Beaker material culture spread through cultural transmission and, elsewhere, migration involving both sexes. | Burial practices may bias sampling; the continental source remains uncertain. British turnover postdates initial Yamnaya expansion. |
+| [Saag et al. (2017)](https://doi.org/10.1016/j.cub.2017.06.022) | 10 Estonians: 5 hunter-gatherers and 5 Corded Ware farmers; autosomal, X-chromosome and lineage comparisons. | Farmers carry steppe ancestry; stronger steppe affinity on autosomes than the X chromosome indicates male-biased steppe input and female-mediated farmer ancestry. | Connects migration with intensive farming in Estonia and identifies sex differences in ancestry contributions. | Small, low-coverage sample; only 7 individuals enter autosomal analyses. Conclusions are regional. |
+| [Schroeder et al. (2019)](https://doi.org/10.1073/pnas.1820210116) | 15 Koszyce victims, Poland, 2880–2776 BCE, plus 9 nearby individuals; genomes, kinship and skeletal evidence. | The victims form an extended, patrilineal family without steppe ancestry; fatal head injuries and burial positions reveal violence and kin-based care. | Documents local continuity and social organisation during Corded Ware expansion; conflict with incoming groups is a hypothesis. | One grave cannot represent all Globular Amphora communities; attackers and motive remain unknown. |
+| **Horse domestication and mobility** | | | | |
+| [Librado et al. (2021)](https://doi.org/10.1038/s41586-021-04018-9) | 273 ancient horse genomes across Eurasia; ancestry, geographic and selection analyses. | The modern domestic lineage originates in the lower Volga–Don and spreads rapidly around 2200–2000 BCE, after initial Yamnaya expansion. | Challenges horses as the primary driver of initial expansion; later horse and chariot dispersal aligns with Indo-Iranian spread. | Horse ancestry cannot establish human movement or every transport practice; preservation and sampling are uneven. |
 
-```{r}
-#| echo: false
-#| warning: false
-#| message: false
-df <- read_excel("excel/synthesis-table.xlsx")
+: Synthesis of the ten selected papers, grouped by research theme. {#tbl-research-synthesis tbl-colwidths="[13,18,31,21,17]"}
 
-knitr::kable(df)
+:::
+
+*Notes.* Sample counts describe each study's dataset, not necessarily the subset supporting each result; published samples overlap across papers, so counts should not be summed. “Steppe-related” denotes genetic affinity, not a language or cultural identity. No study directly identifies spoken language. Contributions and language links are interpretations of the findings. BCE = before the common era; cM = centimorgans, a measure of genetic distance; ancIBD detects DNA segments inherited from shared ancestors. Sequencing depth measures average coverage of the genome.
+
+```{=html}
+<style>
+#quarto-document-content { max-width: 1400px; margin-inline: auto; }
+.synthesis-table { overflow-x: auto; margin-block: 1rem; }
+.synthesis-table table { width: 100%; min-width: 1000px; table-layout: fixed; font-size: 0.95rem; line-height: 1.4; }
+.synthesis-table th, .synthesis-table td { padding: 0.55rem 0.6rem; vertical-align: top; overflow-wrap: break-word; }
+.synthesis-table thead th { background: #1f4e78; color: white; }
+.synthesis-table tbody tr:has(td:first-child strong) td { background: #e7eff5; border-bottom: 1px solid #bccfdd; color: #15324b; }
+.synthesis-table tbody tr:has(td:first-child strong) td:first-child { width: auto; }
+.synthesis-table tbody tr:has(td:first-child strong) { font-size: 0.9rem; }
+.synthesis-table caption { text-align: left; color: #475569; }
+@media print {
+  @page { size: A4 landscape; margin: 12mm; }
+  .synthesis-table { overflow: visible; }
+  .synthesis-table table { min-width: 0; font-size: 9pt; }
+  .synthesis-table thead { display: table-header-group; }
+  .synthesis-table tr { break-inside: avoid; }
+}
+</style>
 ```
