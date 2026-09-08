@@ -17,23 +17,300 @@ execute:
 
 The strongest shared finding is substantial migration west into Europe and east into Inner Asia. Its effects varied between communities. The table shows the combined findings and the limits of each conclusion.
 
-```{r}
-#| label: setup
-#| include: false
-source("results-synthesis.R")
-```
 
 ```{r}
-#| label: results-synthesis
-results_table
+#| label: yamnaya-results-synthesis
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+#| tbl-colwidths: [25, 46, 29]
+
+# Requires knitr, which is normally installed with Quarto's R dependencies.
+# If needed, run install.packages("knitr") once in the R console.
+
+if (!requireNamespace("knitr", quietly = TRUE)) {
+  stop('Please install knitr first: install.packages("knitr")')
+}
+
+# ----------------------------------------------------------------------
+# Sources: only the ten selected papers
+# ----------------------------------------------------------------------
+
+references <- c(
+  Jones = "[Jones 2015](https://doi.org/10.1038/ncomms9912)",
+  Haak = "[Haak 2015](https://doi.org/10.1038/nature14317)",
+  Allentoft = "[Allentoft 2015](https://doi.org/10.1038/nature14507)",
+  Mathieson = "[Mathieson 2018](https://doi.org/10.1038/nature25778)",
+  Olalde = "[Olalde 2018](https://doi.org/10.1038/nature25738)",
+  Saag = "[Saag 2017](https://doi.org/10.1016/j.cub.2017.06.022)",
+  Schroeder = "[Schroeder 2019](https://doi.org/10.1073/pnas.1820210116)",
+  Wang = "[Wang 2021](https://doi.org/10.1038/s41586-021-03336-2)",
+  Librado = "[Librado 2021](https://doi.org/10.1038/s41586-021-04018-9)",
+  Ringbauer = "[Ringbauer 2024](https://doi.org/10.1038/s41588-023-01582-w)"
+)
+
+cite <- function(...) {
+  keys <- c(...)
+
+  if (!all(keys %in% names(references))) {
+    stop("A citation does not match the ten selected papers.")
+  }
+
+  paste(unname(references[keys]), collapse = "; ")
+}
+
+# ----------------------------------------------------------------------
+# Eight synthesis rows within five sections
+# ----------------------------------------------------------------------
+
+synthesis <- data.frame(
+  section = rep(
+    c(
+      "1. Formation",
+      "2. Expansion",
+      "3. Regional consequences and social context",
+      "4. Explanatory mechanisms",
+      "5. Interpretive boundary"
+    ),
+    times = c(1, 2, 3, 1, 1)
+  ),
+
+  conclusion = c(
+    paste(
+      "Ancestry formation and earlier steppe contacts",
+      "preceded the main expansion."
+    ),
+
+    paste(
+      "Westward expansion involved substantial migration",
+      "and mixture with European farmers."
+    ),
+
+    paste(
+      "Eastward expansion established closely related populations",
+      "whose ancestry persisted unevenly."
+    ),
+
+    paste(
+      "Similar material culture accompanied",
+      "different demographic processes."
+    ),
+
+    paste(
+      "The arrival of farming in Estonia involved migrants",
+      "with a history of sex-specific mixture."
+    ),
+
+    paste(
+      "Patrilineal organisation also occurred",
+      "in communities without steppe ancestry."
+    ),
+
+    paste(
+      "Modern domestic horse dispersal",
+      "followed the initial human expansion."
+    ),
+
+    paste(
+      "Migration provides plausible settings for language spread;",
+      "linguistic identity remains unverified."
+    )
+  ),
+
+  evidence = c(
+    paste0(
+      "Caucasus-related and eastern European hunter-gatherer ancestry ",
+      "contributed to Yamnaya formation. Separately, two Balkan individuals ",
+      "dated within **4711–4450 BCE** show earlier steppe contact. ",
+      cite("Jones", "Mathieson"), "."
+    ),
+
+    paste0(
+      "German Corded Ware individuals carry about ",
+      "**73% Yamnaya-related ancestry**. Broader ancestry comparisons ",
+      "agree; shared DNA segments place Yamnaya–Corded Ware co-ancestry ",
+      "within a few hundred years. ",
+      cite("Haak", "Allentoft", "Ringbauer"), "."
+    ),
+
+    paste0(
+      "Sampled Afanasievo groups closely resemble Yamnaya and share ",
+      "recent ancestors. Their ancestry later largely disappears ",
+      "in Mongolia but persists in Xinjiang. ",
+      cite("Allentoft", "Wang", "Ringbauer"), "."
+    ),
+
+    paste0(
+      "Beaker-associated migration produced an estimated minimum ",
+      "**90 ± 2% population turnover in Britain by 1500–1000 BCE**. ",
+      "Limited genetic affinity between Iberian and central European ",
+      "Beaker groups supports cultural transmission elsewhere. ",
+      cite("Olalde"), "."
+    ),
+
+    paste0(
+      "Estonian Corded Ware farmers carry predominantly steppe ancestry. ",
+      "Greater early-farmer affinity on the X chromosome than on other ",
+      "chromosomes suggests more female farmer and male steppe ",
+      "contributions. ",
+      cite("Saag"), "."
+    ),
+
+    paste0(
+      "At Koszyce, **15 Globular Amphora massacre victims** lack steppe ",
+      "ancestry. Genetic kinship and burial placement reveal an extended ",
+      "family; related males and unrelated females suggest patrilineal ",
+      "organisation. ",
+      cite("Schroeder"), "."
+    ),
+
+    paste0(
+      "The modern domestic horse lineage spread widely around ",
+      "**2200–2000 BCE**, after the initial Yamnaya-related movements ",
+      "around 3000 BCE. This chronological mismatch challenges horses ",
+      "as the primary driver of the initial westward expansion. ",
+      cite("Librado", "Haak", "Allentoft"), "."
+    ),
+
+    paste0(
+      "The authors propose links between population movements and ",
+      "European Indo-European languages, including an ",
+      "Afanasievo–Tocharian connection. Balkan evidence constrains ",
+      "a simple steppe migration route into Anatolia. ",
+      cite("Haak", "Allentoft", "Wang", "Mathieson"), "."
+    )
+  ),
+
+  boundary = c(
+    paste(
+      "Ancestry affinity does not locate or date Yamnaya formation.",
+      "Earlier Balkan contacts do not establish a continuous route",
+      "into the later expansion."
+    ),
+
+    paste(
+      "The 73% estimate concerns sampled German Corded Ware individuals.",
+      "Exact source populations and routes remain incompletely resolved."
+    ),
+
+    paste(
+      "Initial genetic similarity does not establish lasting population",
+      "continuity. Archaeological affiliation alone does not identify ancestry."
+    ),
+
+    paste(
+      "Population turnover is not the percentage of Yamnaya ancestry.",
+      "Britain represents a later regional development,",
+      "not the initial expansion."
+    ),
+
+    paste(
+      "The small regional sample cannot establish a universal migration",
+      "pattern. Mixture may have occurred before the migrants",
+      "reached Estonia."
+    ),
+
+    paste(
+      "This is evidence about one neighbouring community,",
+      "not a demonstrated consequence of Yamnaya expansion.",
+      "The attackers and motive remain unknown."
+    ),
+
+    paste(
+      "Horse ancestry cannot resolve every earlier riding practice.",
+      "The selected studies provide limited coverage",
+      "of wagons and metallurgy."
+    ),
+
+    paste(
+      "No study directly identifies spoken language.",
+      "Genetic ancestry cannot determine language, ethnicity",
+      "or the mechanism of language transmission."
+    )
+  ),
+
+  stringsAsFactors = FALSE
+)
+
+# ----------------------------------------------------------------------
+# Insert section headings without adding a repetitive stage column
+# ----------------------------------------------------------------------
+
+table_data <- do.call(
+  rbind,
+  lapply(unique(synthesis$section), function(section_name) {
+    heading <- data.frame(
+      conclusion = paste0("**", section_name, "**"),
+      evidence = "",
+      boundary = "",
+      stringsAsFactors = FALSE
+    )
+
+    rows <- synthesis[
+      synthesis$section == section_name,
+      c("conclusion", "evidence", "boundary"),
+      drop = FALSE
+    ]
+
+    rbind(heading, rows)
+  })
+)
+
+rownames(table_data) <- NULL
+
+# ----------------------------------------------------------------------
+# Render the standard R table
+# ----------------------------------------------------------------------
+
+results_table <- knitr::kable(
+  table_data,
+  format = "pipe",
+  align = c("l", "l", "l"),
+  row.names = FALSE,
+  col.names = c(
+    "Synthesised conclusion",
+    "Evidence and comparison",
+    "Boundary of inference"
+  ),
+  caption = paste(
+    "Yamnaya-related expansion:",
+    "substantial population movements with regionally variable outcomes."
+  )
+)
+
+cat(results_table, sep = "\n")
+
+# ----------------------------------------------------------------------
+# Interpretation and essential reading notes
+# ----------------------------------------------------------------------
+
+cat(
+  "\n\n",
+  "**Overall synthesis.** The selected studies support substantial movement ",
+  "of Yamnaya-related populations west into Europe and east into Inner Asia. ",
+  "Regional differences in mixture, turnover and persistence argue against ",
+  "a single homogeneous demographic process. Material culture, genetic ",
+  "ancestry and language require separate lines of evidence.",
+  "\n\n",
+  "**Scope and interpretation.** This synthesis uses only the ten selected ",
+  "papers: nine human ancient-DNA studies and one horse study. The five ",
+  "sections organise the argument; they do not establish a causal chain. ",
+  "Some papers reuse published genomes, so agreement does not always ",
+  "represent independent samples.",
+  "\n\n",
+  "**Reading the estimates.** Ancestry proportions and population-turnover ",
+  "estimates measure different quantities and should not be compared ",
+  "directly. BCE denotes years before the common era. Author links ",
+  "open the cited papers.",
+  "\n",
+  sep = ""
+)
 ```
+
 
 **Scope:** Nine human ancient-DNA studies and one horse study. Genetic ancestry, archaeological culture and spoken language are distinct. Earlier origins and later regional outcomes are not direct observations of all Yamnaya communities.
 
-## Evidence from individual papers
 
-```{r}
-#| label: study-evidence
-evidence_table
-```
+
 
