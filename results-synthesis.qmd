@@ -15,8 +15,9 @@ execute:
 
 [Home](index.qmd)
 
-The strongest shared finding is substantial migration west into Europe and east into Inner Asia. Its effects varied between communities. The table shows the combined findings and the limits of each conclusion.
+I have created two result synthesis tables the one at the top one has scored high in some of my testing.
 
+### Table 1
 
 ```{r}
 #| label: yamnaya-results-synthesis
@@ -281,36 +282,21 @@ results_table <- knitr::kable(
 
 cat(results_table, sep = "\n")
 
-# ----------------------------------------------------------------------
-# Interpretation and essential reading notes
-# ----------------------------------------------------------------------
-
-cat(
-  "\n\n",
-  "**Overall synthesis.** The selected studies support substantial movement ",
-  "of Yamnaya-related populations west into Europe and east into Inner Asia. ",
-  "Regional differences in mixture, turnover and persistence argue against ",
-  "a single homogeneous demographic process. Material culture, genetic ",
-  "ancestry and language require separate lines of evidence.",
-  "\n\n",
-  "**Scope and interpretation.** This synthesis uses only the ten selected ",
-  "papers: nine human ancient-DNA studies and one horse study. The five ",
-  "sections organise the argument; they do not establish a causal chain. ",
-  "Some papers reuse published genomes, so agreement does not always ",
-  "represent independent samples.",
-  "\n\n",
-  "**Reading the estimates.** Ancestry proportions and population-turnover ",
-  "estimates measure different quantities and should not be compared ",
-  "directly. BCE denotes years before the common era. Author links ",
-  "open the cited papers.",
-  "\n",
-  sep = ""
-)
 ```
 
 
-**Scope:** Nine human ancient-DNA studies and one horse study. Genetic ancestry, archaeological culture and spoken language are distinct. Earlier origins and later regional outcomes are not direct observations of all Yamnaya communities.
 
+### Table 2
+
+```{r}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+source("results-synthesis-2.R")
+cat(results_table, sep = "\n")
+```
 
 
 
