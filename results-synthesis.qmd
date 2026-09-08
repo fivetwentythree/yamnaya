@@ -1,0 +1,39 @@
+---
+title: "Yamnaya Lit Review"
+subtitle: "Result Synthesis Table"
+format:
+  html:
+    toc: false
+    number-sections: false
+    embed-resources: true
+    page-layout: full
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+[Home](index.qmd)
+
+The strongest shared finding is substantial migration west into Europe and east into Inner Asia. Its effects varied between communities. The table shows the combined findings and the limits of each conclusion.
+
+```{r}
+#| label: setup
+#| include: false
+source("results-synthesis.R")
+```
+
+```{r}
+#| label: results-synthesis
+results_table
+```
+
+**Scope:** Nine human ancient-DNA studies and one horse study. Genetic ancestry, archaeological culture and spoken language are distinct. Earlier origins and later regional outcomes are not direct observations of all Yamnaya communities.
+
+## Evidence from individual papers
+
+```{r}
+#| label: study-evidence
+evidence_table
+```
+
