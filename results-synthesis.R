@@ -16,7 +16,7 @@ if (!requireNamespace("knitr", quietly = TRUE)) {
 # Install once if needed: install.packages("knitr")
 
 references <- c(
-  Jones = "[Jones 2015](https://doi.org/10.1038/ncomms9912)",
+  Lazaridis = "[Lazaridis 2025](https://doi.org/10.1038/s41586-024-08531-5)",
   Haak = "[Haak 2015](https://doi.org/10.1038/nature14317)",
   Allentoft = "[Allentoft 2015](https://doi.org/10.1038/nature14507)",
   Mathieson = "[Mathieson 2018](https://doi.org/10.1038/nature25778)",
@@ -64,10 +64,11 @@ synthesis <- data.frame(
 
   evidence = c(
     paste0(
-      "Caucasus-related and eastern European hunter-gatherer ancestry ",
-      "contributed to Yamnaya formation. Separately, two Balkan individuals ",
-      "dated within 4711–4450 BCE show earlier steppe contact. ",
-      cite("Jones", "Mathieson"), "."
+      "Caucasus–lower Volga-related people moved into the Dnipro–Don region ",
+      "and mixed with local hunter-gatherers before Core Yamnaya formation. ",
+      "Separately, two Balkan individuals dated within 4711–4450 BCE ",
+      "show earlier steppe contact. ",
+      cite("Lazaridis", "Mathieson"), "."
     ),
 
     paste0(
@@ -116,15 +117,15 @@ synthesis <- data.frame(
 
     paste0(
       "The authors propose links between population movements and ",
-      "European Indo-European languages, including an Afanasievo–Tocharian ",
-      "connection. Balkan evidence constrains a simple steppe migration ",
-      "route into Anatolia. ",
-      cite("Haak", "Allentoft", "Wang", "Mathieson"), "."
+      "European Indo-European languages, an Afanasievo–Tocharian connection, ",
+      "and a Caucasus–lower Volga proto-Indo-Anatolian stage. Balkan evidence ",
+      "constrains a simple steppe migration route into Anatolia. ",
+      cite("Haak", "Allentoft", "Wang", "Lazaridis", "Mathieson"), "."
     )
   ),
 
   boundary = c(
-    "Ancestry affinity does not locate or date Yamnaya formation. Earlier Balkan contacts do not establish a continuous route into the later expansion.",
+    "The ancestry models depend on sampled and unsampled proxy populations. They narrow but do not uniquely identify the formation centre. Earlier Balkan contacts do not establish a continuous later route.",
 
     "The 73% estimate concerns sampled German Corded Ware individuals. Exact source populations and routes remain incompletely resolved.",
 
